@@ -58,15 +58,34 @@ class MyPlugin(Star):
             logger.warning("未找到可用的LLM Provider，跳过英雄名标准化")
             return None
             
-        prompt = f"""
-用户输入: {query}
-请识别这是英雄联盟(League of Legends)中的哪个英雄。用户输入的可能是别名、外号或不标准的名称。
-请返回一个JSON对象，包含以下字段：
-- "name": 英雄的标准中文名称
-- "en_name": 英雄的标准英文名称
-
-如果无法识别或不是英雄联盟的英雄，请返回 null。
-只返回JSON格式，不要包含其他文本。
+        prompt = f"""# Role 
+ 你是一个精通《英雄联盟》(League of Legends) 全球版本数据、职业比赛梗及玩家社区黑话的专业识别助手。 
+ 
+ # Task 
+ 根据用户输入的【别名、外号、数字代码或不标准名称】，识别其对应的英雄，并以严格的 JSON 格式返回。 
+ 
+ # Knowledge Base & Rules 
+ 1. **官方名称优先**：如“亚索”对应“疾风剑豪 亚索”。 
+ 2. **黑话/梗识别**： 
+    - 数字梗（如：4396 -> 李青, 2800 -> 艾尼维亚）。 
+    - 技能/形象外号（如：大腰子 -> 慎, 快乐风男 -> 亚索, 轮子妈 -> 希维尔）。 
+    - 职业选手关联（如：UZI -> 薇恩, 飞科 -> 瑞兹/阿兹尔）。 
+ 3. **容错性**：用户输入可能存在拼写错误（如：卢仙 -> 卢锡安, 维恩 -> 薇恩）。 
+ 4. **唯一性**：只返回一个最匹配的英雄。如果无法确认或不属于英雄联盟英雄，返回 null。 
+ 
+ # Output Format (JSON Only) 
+ {{ 
+   "name": "英雄的标准中文全称", 
+   "en_name": "Hero's official English name" 
+ }} 
+ 
+ # Constraint 
+ - 禁止输出任何解释性文字。 
+ - 禁止包含 Markdown 代码块标识符（除非明确要求）。 
+ - 确保 JSON 键值对双引号规范。 
+ 
+ # User Input: 
+ {query} 
 """
         try:
             response = await provider.text_chat(prompt=prompt, contexts=[])
