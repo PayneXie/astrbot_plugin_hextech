@@ -3,6 +3,8 @@ from astrbot.api.star import Context, Star, register
 from astrbot.api import logger
 import json
 import os
+import aiohttp
+from bs4 import BeautifulSoup
 
 @register("hextech", "Payne", "海克斯乱斗信息差", "0.0.1")
 class MyPlugin(Star):
@@ -56,6 +58,59 @@ class MyPlugin(Star):
                 
         return None
 
+    async def _fetch_hextech_info(self, hero_id: str) -> str:
+        """爬取海克斯联动数据"""
+        url = f"https://apexlol.info/zh/champions/{hero_id}"
+        headers = {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+        }
+        
+        try:
+            async with aiohttp.ClientSession() as session:
+                async with session.get(url, headers=headers) as response:
+                    if response.status != 200:
+                        logger.error(f"获取海克斯数据失败: HTTP {response.status}")
+                        return f"获取海克斯数据失败: HTTP {response.status}"
+                    html = await response.text()
+            
+            soup = BeautifulSoup(html, 'html.parser')
+            
+            # 查找 "海克斯联动分析" 标题
+            header = soup.find(string=lambda t: "海克斯联动分析" in t if t else False)
+            if not header:
+                return "未找到海克斯联动数据。"
+            
+            # 查找 interaction-card
+            cards = soup.select(".interaction-card")
+            if not cards:
+                return "该英雄暂无海克斯联动数据。"
+            
+            result = ["\n⚡ **海克斯联动分析**"]
+            for card in cards:
+                # 阶级: .hex-tier
+                tier_elem = card.select_one(".hex-tier")
+                tier = tier_elem.get_text(strip=True) if tier_elem else ""
+                
+                # 名称: .hex-name
+                name_elem = card.select_one(".hex-name")
+                name = name_elem.get_text(strip=True) if name_elem else ""
+                
+                # 评分: .rating-badge
+                rating_elem = card.select_one(".rating-badge")
+                rating = rating_elem.get_text(strip=True) if rating_elem else ""
+                
+                # 描述: .note
+                note_elem = card.select_one(".note")
+                note = note_elem.get_text(strip=True) if note_elem else ""
+                
+                result.append(f"- 【{rating}】 {name} ({tier}): {note}")
+                
+            return "\n".join(result)
+
+        except Exception as e:
+            logger.error(f"爬取海克斯数据失败: {e}")
+            return f"爬取数据出错: {e}"
+
     @filter.command("海斗")
     async def haidou(self, event: AstrMessageEvent, hero_name: str = ""):
         """查询英雄"""
@@ -101,10 +156,20 @@ class MyPlugin(Star):
             title = hero.get("title", {}).get("zh", "")
             hero_id = hero.get("id", "Unknown")
             
+            yield event.plain_result(f"🔍 正在查询【{zh_name} {title}】的相关信息...")
+            
             result_msg = f"英雄: {zh_name} {title}"
             if en_name:
                 result_msg += f" ({en_name})"
             result_msg += f"\nID: {hero_id}"
+
+            # 爬取海克斯数据
+            if hero_id and hero_id != "Unknown":
+                try:
+                    hex_info = await self._fetch_hextech_info(hero_id)
+                    result_msg += f"\n{hex_info}"
+                except Exception as e:
+                    logger.error(f"获取海克斯数据异常: {e}")
             
             yield event.plain_result(result_msg)
         else:
