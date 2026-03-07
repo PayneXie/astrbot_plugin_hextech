@@ -1,0 +1,3008 @@
+[
+  {
+    "id": "323",
+    "tier": "Prismatic",
+    "name": {
+      "zh": "地狱三头犬",
+      "en": "Cerberus"
+    },
+    "description": {
+      "zh": "获得<span class=\"lol-spell-name\">[[丛刃]]</span>和<span class=\"lol-spell-name\">[[强攻]]</span>基石符文。",
+      "en": "Gain the [[Hail of Blades]] and [[Press the Attack]] runes."
+    },
+    "icon": "323.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Cerberus"
+  },
+  {
+    "id": "87",
+    "tier": "Silver",
+    "name": {
+      "zh": "台风",
+      "en": "Typhoon"
+    },
+    "description": {
+      "zh": "你的普通攻击会对一个额外目标发射一根弩箭，造成<span class=\"lol-physical-damage\">30%攻击力</span>的<span class=\"lol-physical-damage\">物理伤害</span>并施加攻击特效(100%效力)。",
+      "en": "Basic attacks fire a bolt at an additional target that deals <span class=\"lol-stat\">30% AD</span> <span class=\"lol-stat\">physical damage</span> and applies on-hit effects at 100% effectiveness."
+    },
+    "icon": "87.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Typhoon"
+  },
+  {
+    "id": "108",
+    "tier": "Silver",
+    "name": {
+      "zh": "自我毁灭",
+      "en": "Self Destruct"
+    },
+    "description": {
+      "zh": "每个回合开始时会有一个炸弹附在你身上。在5秒后，它会爆炸，对350码内的敌人造成<span class=\"lol-true-damage\">相当于目标20%最大生命值的真实伤害</span>并将其<span class=\"lol-status\">击飞</span>0.75秒（25秒冷却时间）。",
+      "en": "Automatically attach a bomb to yourself that detonates after 5 seconds, creating an explosion that deals <span class=\"lol-stat\">true damage</span> equal to <span class=\"lol-stat\">20% of the target's 'maximum' health</span> to enemies within 350 units and <span class=\"lol-status\" title=\"knocks them up\">airborne</span> for 0.75 seconds (25 second cooldown)."
+    },
+    "icon": "108.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Self Destruct"
+  },
+  {
+    "id": "66",
+    "tier": "Prismatic",
+    "name": {
+      "zh": "量子计算",
+      "en": "Quantum Computing"
+    },
+    "description": {
+      "zh": "当650码内有敌方英雄时，自动施放强化版的卡蜜尔技能，在0.75秒后对周围650码内造成<span class=\"lol-physical-damage\">200-350</span><span class=\"lol-stat\">(+65%额外AD)</span><span class=\"lol-stat\">(+40%AP)</span>的<span class=\"lol-physical-damage\">物理伤害</span>（30秒冷却）。被外沿命中的敌人会受到<span class=\"lol-physical-damage\">额外物理伤害</span>，数额相当于其<span class=\"lol-physical-damage\">10%</span><span class=\"lol-stat\">(+每100额外AD提升2.5%)</span><span class=\"lol-stat\">(+每100AP提升1.6%)</span><span class=\"lol-stat\">(+每100额外生命值提升0.1%)</span>的<span class=\"lol-physical-damage\">最大生命值</span>，并被<span class=\"lol-status\">减速</span>80%（在2秒内衰减）。此外，你会获得相当于对英雄造成外沿伤害80%的<span class=\"lol-healing\">治疗</span>。",
+      "en": "Automatically cast an improved version of Camille when an enemy champion is within 650 units of you, winding up over 0.75 seconds to slash in a 650 radius around you. The slash deals <span class=\"lol-physical-damage\">200 to 350</span> <span class=\"lol-stat\">(+ 65% 'bonus' AD)</span> <span class=\"lol-stat\">(+ 40% AP)</span> <span class=\"lol-stat\">physical damage</span> to enemies within the area (30 second cooldown). Enemies hit by the outer edge of the circle take <span class=\"lol-stat\">'bonus' physical damage</span> equal to <span class=\"lol-hp\">10%</span> <span class=\"lol-stat\">(+ 2.5% per 100 'bonus' AD)</span> <span class=\"lol-stat\">(+ 1.6% per 100 AP)</span> <span class=\"lol-stat\">(+ 0.1% per 100 'bonus' health)</span> <span class=\"lol-stat\">of their 'maximum' health</span> and are <span class=\"lol-status\" title=\"slowed\">slow</span> by 80% decaying over 2 seconds. Additionally, you are <span class=\"lol-healing\" title=\"healed\">heal</span> for 80% of the 'bonus' Damage calculated after modifiers damage against enemy champions hit by the outer edge."
+    },
+    "icon": "66.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Quantum Computing"
+  },
+  {
+    "id": "23",
+    "tier": "Gold",
+    "name": {
+      "zh": "魔鬼之舞",
+      "en": "Demon's Dance"
+    },
+    "description": {
+      "zh": "获得<span class=\"lol-spell-name\">[[迅捷步法]]</span>和<span class=\"lol-spell-name\">[[不灭之握]]</span>基石符文。<br/>",
+      "en": "Gain the [[Fleet Footwork]] and [[Grasp of the Undying]] keystone runes."
+    },
+    "icon": "23.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Demon's Dance"
+  },
+  {
+    "id": "243",
+    "tier": "Prismatic",
+    "name": {
+      "zh": "质变：混沌",
+      "en": "Transmute: Chaos"
+    },
+    "description": {
+      "zh": "获得2个完全随机的强化符文（不包括当前选项中的另外两个）。你有 <span class=\"lol-stat\">30%</span> 的几率获得一个<span class=\"lol-silver\">白银阶</span>强化符文，并有 <span class=\"lol-stat\">70%</span> 的几率获得一个<span class=\"lol-gold\">黄金阶</span>强化符文。",
+      "en": "Gain two completely random augments, excluding the other two offerings in your current assortment. You have a 30% chance to gain a Silver-tier augment and a 70% chance to receive a Gold-tier augment."
+    },
+    "icon": "243.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Transmute: Chaos"
+  },
+  {
+    "id": "129",
+    "tier": "Gold",
+    "name": {
+      "zh": "神射法师",
+      "en": "Marksmage"
+    },
+    "description": {
+      "zh": "你的攻击造成相当于你<span class=\"lol-scale-a-p\">75%法术强度</span>的额外<span class=\"lol-physical-damage\">物理伤害</span>。",
+      "en": "Basic attacks deal <span class=\"lol-stat\">'bonus' physical damage</span> equal to <span class=\"lol-stat\">75% AP</span>."
+    },
+    "icon": "129.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Marksmage"
+  },
+  {
+    "id": "6",
+    "tier": "Prismatic",
+    "name": {
+      "zh": "利刃华尔兹",
+      "en": "Blade Waltz"
+    },
+    "description": {
+      "zh": "将非[[闪现]]位的召唤师技能替换为<span class=\"lol-spell-name\">利刃华尔兹</span>。<br/><br/><span class=\"lol-status\">利刃华尔兹</span>：让你进入不可被选取状态，在此期间对敌人进行反复突进并造成8次伤害。",
+      "en": "Replaces the summoner spell in the slot not occupied by <b>Flash</b> with <b>Blade Waltz</b>.<br><br> Blade Waltz: Blade Waltz"
+    },
+    "icon": "6.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Blade Waltz"
+  },
+  {
+    "id": "44",
+    "tier": "Silver",
+    "name": {
+      "zh": "冰寒",
+      "en": "Ice Cold"
+    },
+    "description": {
+      "zh": "你的<span class=\"lol-status\">减速</span>效果可使<span class=\"lol-speed\">移动速度</span>降低额外的100。",
+      "en": "Your <span class=\"lol-status\" title=\"slowing\">slow</span> effects reduce the <span class=\"lol-stat\">movement speed</span> of targets by an additional <span class=\"lol-ms\">100</span>."
+    },
+    "icon": "44.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Ice Cold"
+  },
+  {
+    "id": "214",
+    "tier": "Silver",
+    "name": {
+      "zh": "旋转至胜",
+      "en": "Spin To Win"
+    },
+    "description": {
+      "zh": "你的旋转类技能获得30技能急速并且多造成30%伤害！",
+      "en": "Your Any ability with 'spinning' properties deal 30% increased damage and benefit from 30 ability haste."
+    },
+    "icon": "214.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Spin To Win"
+  },
+  {
+    "id": "80",
+    "tier": "Silver",
+    "name": {
+      "zh": "会心防守",
+      "en": "Tank It Or Leave It"
+    },
+    "description": {
+      "zh": "获得等同于<span class=\"lol-keyword\">100%暴击几率</span>的【会心防御几率】，上限为50%。此外，获得<span class=\"lol-keyword\">25%暴击几率</span>。<br/><br/>【会心防御】：让你有几率使受到的单次伤害降低20%。",
+      "en": "Gain Critical Defend Chance equal to <span class=\"lol-stat\">100% critical strike chance</span>, up to 50%. Additionally, gain <span class=\"lol-stat\">25% critical strike chance</span>.<br><br>Critical Defend Chance: Grants you a chance to reduce an instance of damage taken by 20%."
+    },
+    "icon": "80.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Tank It Or Leave It"
+  },
+  {
+    "id": "97",
+    "tier": "Silver",
+    "name": {
+      "zh": "巫师式思考",
+      "en": "Witchful Thinking"
+    },
+    "description": {
+      "zh": "获得<span class=\"lol-scale-a-p\">20到80法术强度</span>。",
+      "en": "Grants <span class=\"lol-stat\">20 to 80 ability power</span>."
+    },
+    "icon": "97.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Witchful Thinking"
+  },
+  {
+    "id": "154",
+    "tier": "Prismatic",
+    "name": {
+      "zh": "任务：海牛阿福的勇士",
+      "en": "Quest: Urf's Champion"
+    },
+    "description": {
+      "zh": "任务：参与击杀 18 次。<br/><br/>奖励：完成后获得<b>【[[金铲铲]]】</b>。<br/><br/><b>【金铲铲】：</b><br/><span class=\"lol-physical-damage\">+90 攻击力</span><br/><span class=\"lol-stat\">+125 法术强度</span><br/><span class=\"lol-stat\">+20 技能急速</span><br/><span class=\"lol-stat\">+40 护甲</span><br/><span class=\"lol-stat\">+40 魔法抗性</span><br/><span class=\"lol-stat\">+60% 攻击速度</span><br/><span class=\"lol-stat\">+25% 暴击几率</span><br/><span class=\"lol-stat\">+350 生命值</span><br/><span class=\"lol-stat\">+200% 基础生命回复</span><br/><span class=\"lol-stat\">+350 法力值</span><br/><span class=\"lol-stat\">+200% 基础法力回复</span><br/><span class=\"lol-stat\">+10% 移动速度</span><br/><span class=\"lol-healing\">+15% 全能吸血</span><br/><br/>唯一被动 - 搞点事情：你永久处于<b>“火力全开！”</b>状态，每秒对 400 码范围内的敌人造成 <span class=\"lol-magic-damage\">26 - 43</span> (基于等级) 魔法伤害并使其<span class=\"lol-status\">灼烧</span>。此外，你的技能冷却时间每 0.25 秒缩短 0.2 秒，并获得 <span class=\"lol-stat\">5% 额外移动速度</span> (在面朝附近敌方英雄时提升至 <span class=\"lol-stat\">20%</span>)、<span class=\"lol-stat\">20% 额外攻击速度</span>、<span class=\"lol-stat\">50 - 900</span> (基于等级) 额外生命值、<span class=\"lol-stat\">1.5 额外法力回复</span>以及 <span class=\"lol-stat\">4 额外能量回复</span>。在<b>“火力全开！”</b>状态下，你受到的伤害也会提升 <span class=\"lol-true-damage\">25% / 35%</span>，且受到的<span class=\"lol-healing\">治疗</span>和<span class=\"lol-shield\">护盾</span>效果降低 <span class=\"lol-true-damage\">25%</span>。",
+      "en": "Quest: Score 18 champion <span class=\"lol-keyword\">takedowns</span>.<br/><br/>Reward: Upon completion, receive <b>The Golden Spatula</b>.<br/><br/><b>The Golden Spatula:</b><br/><span class=\"lol-stat\">+90 AD</span><br/><span class=\"lol-stat\">+125 AP</span><br/><span class=\"lol-stat\">+20 Ability Haste</span><br/><span class=\"lol-stat\">+40 Armor</span><br/><span class=\"lol-stat\">+40 Magic Resist</span><br/><span class=\"lol-stat\">+60% Attack Speed</span><br/><span class=\"lol-stat\">+25% Critical Strike Chance</span><br/><span class=\"lol-stat\">+350 Health</span><br/><span class=\"lol-stat\">+200% Base Health Regen</span><br/><span class=\"lol-stat\">+350 Mana</span><br/><span class=\"lol-stat\">+200% Base Mana Regen</span><br/><span class=\"lol-stat\">+10% Movement Speed</span><br/><span class=\"lol-healing\">+15% Omnivamp</span><br/><br/>Unique – Doing Something: You are permanently <b>On Fire!</b>, causing you to burn enemies within 400 units every second for <span class=\"lol-magic-damage\">26 - 43</span> (based on level) magic damage and reduce your abilities' cooldowns by <span class=\"lol-stat\">0.2 seconds</span> every <span class=\"lol-stat\">0.25 seconds</span> as well as gain <span class=\"lol-stat\">5% bonus movement speed</span>, increased to <span class=\"lol-stat\">20%</span> while facing nearby enemy champions, <span class=\"lol-stat\">20% bonus attack speed</span>, <span class=\"lol-stat\">50 - 900</span> (based on level) bonus health, <span class=\"lol-stat\">1.5 bonus mana regeneration</span>, and <span class=\"lol-stat\">4 bonus energy regeneration</span>. While <b>On Fire!</b>, however, you also take <span class=\"lol-true-damage\">25% / 35%</span> increased damage and reduce the effectiveness of incoming <span class=\"lol-healing\">heals</span> and <span class=\"lol-shield\">shields</span> by <span class=\"lol-true-damage\">25%</span>."
+    },
+    "icon": "154.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Quest: Urf's Champion"
+  },
+  {
+    "id": "28",
+    "tier": "Silver",
+    "name": {
+      "zh": "侵蚀",
+      "en": "Erosion"
+    },
+    "description": {
+      "zh": "对敌人造成伤害时会施加持续4秒的一层效果，使其<span class=\"lol-scale-armor\">护甲</span>和<span class=\"lol-scale-m-r\">魔法抗性</span>降低1.5%，至多叠加20层（总计30%双抗击碎）。",
+      "en": "Each instance of damage dealt to an enemy reduces their <span class=\"lol-stat\">armor</span> and <span class=\"lol-stat\">magic resistance</span> by 1.5% for 4 seconds, stacking up to 20 times for a total of 30% resistances reduction."
+    },
+    "icon": "28.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Erosion"
+  },
+  {
+    "id": "54",
+    "tier": "Prismatic",
+    "name": {
+      "zh": "物法皆修",
+      "en": "Master of Duality"
+    },
+    "description": {
+      "zh": "每次普通攻击提供<span class=\"lol-scale-a-p\">6-18法术强度</span>，每次技能伤害提供<span class=\"lol-scale-a-d\">3-9攻击力</span>，持续5秒。持续时间可刷新且可无限叠加。",
+      "en": "Basic attacks <span class=\"lol-keyword\">on-hit</span> grant <span class=\"lol-stat\">6 to 18 ability power</span> and damaging abilities once per <span class=\"lol-keyword\">cast instance</span> grant <span class=\"lol-stat\">3 to 9 'bonus' attack damage</span>, lasting for 5 seconds, with the duration of both refreshing on subsequent hits, and stacking infinitely."
+    },
+    "icon": "54.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Master of Duality"
+  },
+  {
+    "id": "51",
+    "tier": "Silver",
+    "name": {
+      "zh": "点亮他们！",
+      "en": "Light 'em Up!"
+    },
+    "description": {
+      "zh": "每第4次攻击消耗层数对目标快速发射4枚烟花，每枚烟花造成<span class=\"lol-magic-damage\">11-80</span><span class=\"lol-stat\">(+35%额外AD)</span><span class=\"lol-stat\">(+19%AP)</span>的额外<span class=\"lol-magic-damage\">魔法伤害</span>，总计造成<span class=\"lol-magic-damage\">44-320</span><span class=\"lol-stat\">(+140%额外AD)</span><span class=\"lol-stat\">(+76%AP)</span>伤害。",
+      "en": "Basic attacks generate a stack, up to 4. The fourth stack consumes them all to quickly launch 4 fireworks at the target that each deal <span class=\"lol-magic-damage\">11 to 80</span> <span class=\"lol-stat\">(+ 35% 'bonus' AD)</span> <span class=\"lol-stat\">(+ 19% AP)</span> <span class=\"lol-stat\">'bonus' magic damage</span> on-hit, for a total of <span class=\"lol-magic-damage\">11*4 to 80*4</span> <span class=\"lol-stat\">(+ 35*4% 'bonus' AD)</span> <span class=\"lol-stat\">(+ 19*4% AP)</span>."
+    },
+    "icon": "51.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Light 'em Up!"
+  },
+  {
+    "id": "72",
+    "tier": "Gold",
+    "name": {
+      "zh": "炽烈黎明",
+      "en": "Searing Dawn"
+    },
+    "description": {
+      "zh": "获得蕾欧娜被动：你的技能会标记敌人，使其在被你的队友的下一次攻击或技能命中时受到额外的<span class=\"lol-magic-damage\">40-200</span><span class=\"lol-stat\">(+3%目标最大生命值)</span>的<span class=\"lol-magic-damage\">魔法伤害</span>（每个目标有0.75秒冷却）。",
+      "en": "Gain Leona.<br><br>Sunlight: Your abilities mark enemies, causing them to take <span class=\"lol-magic-damage\">40 to 200</span> <span class=\"lol-stat\">(+ 3% of target's 'maximum' health)</span> <span class=\"lol-stat\">'bonus' magic damage</span> from your ally's next basic attack or ability hit against them (0.75-second cooldown per target)."
+    },
+    "icon": "72.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Searing Dawn"
+  },
+  {
+    "id": "133",
+    "tier": "Gold",
+    "name": {
+      "zh": "魔法飞弹",
+      "en": "Magic Missile"
+    },
+    "description": {
+      "zh": "在1000码内用技能对敌方英雄造成伤害时，会对其发射3个魔法飞弹，每个飞弹造成<span class=\"lol-true-damage\">0.33%最大生命值的真实伤害</span>，基于飞行距离至多提升至<span class=\"lol-true-damage\">1%</span>。同一次施法每6秒仅能触发一次。",
+      "en": "Dealing damage to an enemy champion with an ability within 1000 units fires 3 missiles at them that each deal <span class=\"lol-stat\">true damage</span> equal to <span class=\"lol-stat\">0.33% of the target's 'maximum' health</span>, increased to up to <span class=\"lol-scale-health\">1%</span> based on distance travelled. This effect can only trigger once every 6 seconds from the same cast."
+    },
+    "icon": "133.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Magic Missile"
+  },
+  {
+    "id": "180",
+    "tier": "Gold",
+    "name": {
+      "zh": "超强大脑",
+      "en": "Big Brain"
+    },
+    "description": {
+      "zh": "获得一个可吸收相当于<span class=\"lol-scale-a-p\">300%法术强度</span>伤害的<span class=\"lol-shield\">护盾</span>，持续时间永久。在复活时会重置该护盾。",
+      "en": "Gain a <span class=\"lol-shield\">shield</span> that absorbs damage equal to <span class=\"lol-stat\">300% AP</span> and lasts until destroyed. Shield is replenished upon respawn."
+    },
+    "icon": "180.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Big Brain"
+  },
+  {
+    "id": "92",
+    "tier": "Gold",
+    "name": {
+      "zh": "易损",
+      "en": "Vulnerability"
+    },
+    "description": {
+      "zh": "装备伤害和持续伤害效果（DoT）现在可以<span class=\"lol-keyword\">暴击</span>，造成145%（+额外暴击伤害）的伤害。此外，获得<span class=\"lol-keyword\">25%暴击几率</span>。",
+      "en": "Damage dealt by items and damage over time effects can now <span class=\"lol-keyword\" title=\"critically strike\">critical strike</span> for (145% + <span class=\"lol-stat\">'bonus' critical damage</span>) damage. Additionally, gain <span class=\"lol-stat\">25% critical strike chance</span>."
+    },
+    "mechanism": {
+      "zh": "拥有5秒的内置CD",
+      "en": "Has a 5 second internal cooldown."
+    },
+    "icon": "92.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Vulnerability"
+  },
+  {
+    "id": "310",
+    "tier": "Prismatic",
+    "name": {
+      "zh": "小丑学院",
+      "en": "Clown College"
+    },
+    "description": {
+      "zh": "获得小丑大招“萨科、萨科”和萨科爆炸。将未被<b>[[闪现]]</b>占用的召唤师技能栏替换为“萨科、萨科”。<br><br>被动 - 背刺：从背后攻击敌人时，你的普通攻击会造成 <span class=\"lol-physical-damage\">20 至 35</span> <span class=\"lol-stat\">(+ 50% 额外攻击力)</span> <span class=\"lol-stat\">(+ 35% 法术强度)</span> 的物理攻击特效伤害。<br><br>主动 - 欺诈魔术：在 0.125 秒延迟后，进入<span class=\"lol-keyword\">隐形</span>状态，持续最多 3 秒，并<span class=\"lol-keyword\">传送</span>至 400 码内的目标位置。你在隐形状态下的下一次普通攻击会造成 <span class=\"lol-physical-damage\">100</span> <span class=\"lol-stat\">(+ 150% 额外攻击力)</span> <span class=\"lol-stat\">(+ 55% 法术强度)</span> <span class=\"lol-stat\">额外物理伤害</span>，如果触发了背刺，该伤害将提升至 155%（45 秒冷却时间）。<br><br>被动 - 幻象：在你死亡时，在死亡地点 350 半径范围内引发爆炸，对其中的敌人造成 <span class=\"lol-stat\">目标 25% 最大生命值</span> 的<span class=\"lol-stat\">真实伤害</span>。此外，你会在死亡位置部署一个惊吓宝盒，立即<span class=\"lol-status\" title=\"fears\">恐惧</span>附近的敌人 1 秒。该宝盒不会攻击，但会持续 3 秒。",
+      "en": "Gain Shaco Shaco, Shaco and Shaco explosion. Replaces the summoner spell in the slot not occupied by <b>[[Flash]]</b> with Shaco.<br><br> Passive - Backstab: Your basic attacks deal <span class=\"lol-physical-damage\">20 to 35</span> <span class=\"lol-stat\">(+ 50% 'bonus' AD)</span> <span class=\"lol-stat\">(+ 35% AP)</span> physical on-hit when hitting an enemy from behind.<br><br> Active - Deceive: Become <span class=\"lol-keyword\">invisible</span> for up to 3 seconds and <span class=\"lol-keyword\">blink</span> to the target location within 400 units after a 0.125-second delay. Your next basic attack while in stealth deals <span class=\"lol-physical-damage\">100</span> <span class=\"lol-stat\">(+ 150% 'bonus' AD)</span> <span class=\"lol-stat\">(+ 55% AP)</span> <span class=\"lol-stat\">'bonus' physical damage</span>, increased to155% damageif  Backstab was applied (45 second cooldown).<br><br> Passive - Hallucinate: Upon your death, release an explosion in a  350 radius of your death location, dealing <span class=\"lol-stat\">25% of target's 'maximum' health</span> <span class=\"lol-stat\">true damage</span> to enemies within. Additionally, you deploy a box at the location of your death that instantly <span class=\"lol-status\" title=\"fears\">fear</span> nearby enemies for 1 second. This box does not attack but lasts for 3 seconds."
+    },
+    "icon": "310.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Clown College"
+  },
+  {
+    "id": "53",
+    "tier": "Prismatic",
+    "name": {
+      "zh": "科学狂人",
+      "en": "Mad Scientist"
+    },
+    "description": {
+      "zh": "在每回合开始或复活时，你的体型要么变大（获得30%<span class=\"lol-keyword\">适应之力</span>、20%额外<span class=\"lol-scale-health\">生命值</span>和40%体型），要么变小（获得<span class=\"lol-stat\">70技能急速</span>、40%额外<span class=\"lol-speed\">移动速度</span>和40%体型缩减）。",
+      "en": "Upon acquiring this augment and each time you respawn, gain either 30% <span class=\"lol-keyword\">adaptive force</span>, <span class=\"lol-stat\">20% 'bonus' health</span>, and 40% increased size or <span class=\"lol-stat\">70 ability haste</span>, <span class=\"lol-stat\">40% 'bonus' movement speed</span>, and 40% reduced size."
+    },
+    "icon": "53.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Mad Scientist"
+  },
+  {
+    "id": "57",
+    "tier": "Silver",
+    "name": {
+      "zh": "山脉龙魂",
+      "en": "Mountain Soul"
+    },
+    "description": {
+      "zh": "你获得山脉龙魂，在脱离战斗之后获得一个持续一小段时间的<span class=\"lol-shield\">护盾</span>。",
+      "en": "Grants the <b>Mountain Dragon Soul</b>, or a different <b>Dragon Soul</b> if one is already obtained."
+    },
+    "icon": "57.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Mountain Soul"
+  },
+  {
+    "id": "88",
+    "tier": "Prismatic",
+    "name": {
+      "zh": "终极刷新",
+      "en": "Ultimate Revolution"
+    },
+    "description": {
+      "zh": "每回合施放一次终极技能后会刷新其冷却时间（75秒冷却，阵亡后重置）。",
+      "en": "Casting your ultimate ability resets its cooldown immediately after its effect For instant-cast spells or has For duration-based spells (75 second cooldown, reset upon death)."
+    },
+    "icon": "88.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Ultimate Revolution"
+  },
+  {
+    "id": "250",
+    "tier": "Gold",
+    "name": {
+      "zh": "一板一眼",
+      "en": "Slow and Steady"
+    },
+    "description": {
+      "zh": "你的基础<span class=\"lol-speed\">攻击速度</span>被锁定为0.625，且不再受任何攻速加成影响。作为回报，你获得<span class=\"lol-scale-a-d\">25额外攻击力</span>，并且每<span class=\"lol-speed\">1%额外攻速</span>都会转化为<span class=\"lol-scale-a-d\">1额外攻击力</span>。",
+      "en": "Your <span class=\"lol-stat\">'base' attack speed</span> is set to a static amount of <span class=\"lol-as\">0.625</span> and your attack rate no longer benefits from any source of attack speed bonuses. In return, you gain <span class=\"lol-stat\">25 'bonus' attack damage</span> and convert every <span class=\"lol-stat\">1% 'bonus' attack speed</span> into <span class=\"lol-stat\">1 'bonus' attack damage</span>."
+    },
+    "icon": "250.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Slow and Steady"
+  },
+  {
+    "id": "39",
+    "tier": "Silver",
+    "name": {
+      "zh": "冰霜 幽灵",
+      "en": "Frost Wraith"
+    },
+    "description": {
+      "zh": "每6.5秒，自动在周围450码引发寒冰脉冲，对附近的敌人造成1.25秒<span class=\"lol-status\">禁锢</span>。",
+      "en": "Automatically cast Lissandra, creating a cold pulse around you in 450 radius that <span class=\"lol-status\" title=\"roots\">root</span> nearby enemies for 1.25 seconds (6.5 second cooldown)."
+    },
+    "icon": "39.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Frost Wraith"
+  },
+  {
+    "id": "79",
+    "tier": "Prismatic",
+    "name": {
+      "zh": "战争交响乐",
+      "en": "Symphony of War"
+    },
+    "description": {
+      "zh": "获得<span class=\"lol-spell-name\">[[致命节奏]]</span>和<span class=\"lol-spell-name\">[[征服者]]</span>基石符文。",
+      "en": "Gain the [[Conqueror]] and [[Lethal Tempo]] keystone runes."
+    },
+    "icon": "79.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Symphony of War"
+  },
+  {
+    "id": "30",
+    "tier": "Prismatic",
+    "name": {
+      "zh": "尤里卡",
+      "en": "Eureka"
+    },
+    "description": {
+      "zh": "获得相当于<span class=\"lol-scale-a-p\">30% 法术强度</span>的技能急速。",
+      "en": "Gain <span class=\"lol-stat\">ability haste</span> equal to <span class=\"lol-stat\">30% AP</span>."
+    },
+    "icon": "30.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Eureka"
+  },
+  {
+    "id": "60",
+    "tier": "Silver",
+    "name": {
+      "zh": "海洋龙魂",
+      "en": "Ocean Soul"
+    },
+    "description": {
+      "zh": "获得【海洋龙魂】，在对敌方英雄造成伤害后提供高额的<span class=\"lol-healing\">生命</span>和<span class=\"lol-scale-mana\">法力</span>回复。",
+      "en": "Grants the <b>Ocean Dragon Soul</b>, which has a modified base heal value of 100, or a different <b>Dragon Soul</b> if one is already obtained."
+    },
+    "icon": "60.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Ocean Soul"
+  },
+  {
+    "id": "slaparound",
+    "tier": "Silver",
+    "name": {
+      "zh": "扇巴掌",
+      "en": "Slaparound"
+    },
+    "description": {
+      "zh": "每当你定身或缚地一个敌人时，获得可叠加的适应之力。阵亡时损失层数。",
+      "en": "Gain a stack of Adaptive Force when you immobilize or root an enemy. Lose a stack when you die."
+    },
+    "icon": "slaparound_icon.webp"
+  },
+  {
+    "id": "15",
+    "tier": "Prismatic",
+    "name": {
+      "zh": "死亡之环",
+      "en": "Circle of Death"
+    },
+    "description": {
+      "zh": "你的<span class=\"lol-healing\">治疗</span>和生命回复会对 1000 码内最近的敌方英雄造成<span class=\"lol-magic-damage\">魔法伤害</span>，数值相当于治疗量的 <span class=\"lol-stat\">70%</span>。",
+      "en": "Your <span class=\"lol-healing\">heals</span> and health regeneration deal <span class=\"lol-magic-damage\">magic damage</span> to the nearest enemy champion within 1000 units equal to <span class=\"lol-stat\">70%</span> of the amount healed."
+    },
+    "icon": "15.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Circle of Death"
+  },
+  {
+    "id": "156",
+    "tier": "Prismatic",
+    "name": {
+      "zh": "任务：沃格勒特的巫师帽",
+      "en": "Quest: Wooglet's Witchcap"
+    },
+    "description": {
+      "zh": "即刻：获得<b>【[[无用大棒]]】</b>。<br/><br/>任务：持有<b>【[[灭世者的死亡之帽]]】</b>和<b>【[[中娅沙漏]]】</b>。<br/><br/>奖励：完成后，将上述装备合成为<b>【[[沃格勒特的巫师帽]]】</b>。<br/><br/><b>【沃格勒特的巫师帽】：</b><br/><span class=\"lol-stat\">+300 法术强度</span><br/><span class=\"lol-stat\">+20 技能急速</span><br/><span class=\"lol-stat\">+50 护甲</span><br/><br/>唯一主动 - 凝滞：让英雄在 2.5 秒里进入<span class=\"lol-status\">凝滞</span>状态，在此期间不可被选取且免疫任何伤害，但无法移动、攻击、施放技能或使用道具（20 秒冷却时间）。",
+      "en": "Gain a <b>[[Needlessly Large Rod]]</b>.<br/><br/>Quest: Obtain <b>[[Rabadon's Deathcap]]</b> and <b>[[Zhonya's Hourglass]]</b>.<br/><br/>Reward: Upon completion, convert the items into <b>[[Wooglet's Witchcap]]</b>.<br/><br/><b>Wooglet's Witchcap:</b><br/><span class=\"lol-stat\">+300 AP</span><br/><span class=\"lol-stat\">+20 Ability Haste</span><br/><span class=\"lol-stat\">+50 Armor</span><br/><br/>Unique Active - Stasis: Put yourself in <span class=\"lol-status\">stasis</span> for 2.5 seconds, rendering you untargetable and invulnerable for the duration but also unable to move, attack, cast abilities, or use items (20 second cooldown)."
+    },
+    "icon": "156.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Quest: Wooglet's Witchcap"
+  },
+  {
+    "id": "27",
+    "tier": "Prismatic",
+    "name": {
+      "zh": "大地苏醒",
+      "en": "Earthwake"
+    },
+    "description": {
+      "zh": "你的<span class=\"lol-keyword\">冲刺</span>、<span class=\"lol-keyword\">闪烁</span>或<span class=\"lol-keyword\">传送</span>会在身后留下一条轨迹，在 0.75 秒后爆炸，对 300 码范围内的敌人造成 <span class=\"lol-physical-damage\">70 - 210</span> (基于等级) <span class=\"lol-stat\">(+ 125% 额外攻击力)</span> <span class=\"lol-stat\">(+ 60% 法术强度)</span> 的<span class=\"lol-physical-damage\">物理伤害</span>（对<span class=\"lol-keyword\">小兵</span>造成 70% 伤害）。<br/><br/>敌人每 1 秒内至多受到一次爆炸伤害。最大触发距离为 2000 码。<br/><br/>每支队伍最多 2 名玩家可拥有此强化。",
+      "en": "Your <span class=\"lol-keyword\">Dash</span>, <span class=\"lol-keyword\">Blink</span>, or <span class=\"lol-keyword\">Teleport</span> effects leave a trail that detonates after 0.75 seconds, dealing <span class=\"lol-physical-damage\">70 - 210</span> (based on level) <span class=\"lol-stat\">(+ 125% bonus AD)</span> <span class=\"lol-stat\">(+ 60% AP)</span> <span class=\"lol-physical-damage\">physical damage</span> to enemies within 300 units (70% damage to <span class=\"lol-keyword\">minions</span>).<br/><br/>Enemies can only be damaged once every 1 second. Max trigger range is 2000 units.<br/><br/>Limited to 2 players per team."
+    },
+    "icon": "27.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Earthwake"
+  },
+  {
+    "id": "170",
+    "tier": "Silver",
+    "name": {
+      "zh": "万用瞄准镜",
+      "en": "Scoped Weapons"
+    },
+    "description": {
+      "zh": "获得75攻击距离，如果你是远程英雄则降低至50攻击距离。",
+      "en": "Gain 50 'bonus' attack range."
+    },
+    "icon": "170.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Scoped Weapons"
+  },
+  {
+    "id": "103",
+    "tier": "Gold",
+    "name": {
+      "zh": "面包和黄油",
+      "en": "Bread And Butter"
+    },
+    "description": {
+      "zh": "你的Q获得100技能急速。",
+      "en": "Your champion's first basic ability (Q) gains <span class=\"lol-stat\">100 ability haste</span>."
+    },
+    "icon": "103.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Bread And Butter"
+  },
+  {
+    "id": "82",
+    "tier": "Silver",
+    "name": {
+      "zh": "残暴之力",
+      "en": "The Brutalizer"
+    },
+    "description": {
+      "zh": "获得<span class=\"lol-scale-a-d\">25攻击力</span>、10技能急速和<span class=\"lol-scale-lethality\">5穿甲</span>。",
+      "en": "Grants <span class=\"lol-stat\">25 'bonus' attack damage</span>, <span class=\"lol-stat\">10 ability haste</span>, and <span class=\"lol-stat\">5 lethality</span>."
+    },
+    "icon": "82.webp",
+    "source": "wiki_merged",
+    "wikiKey": "The Brutalizer"
+  },
+  {
+    "id": "76",
+    "tier": "Silver",
+    "name": {
+      "zh": "天音爆",
+      "en": "Sonic Boom"
+    },
+    "description": {
+      "zh": "在为你的友军提供增益效果、<span class=\"lol-healing\">治疗效果</span>或<span class=\"lol-shield\">护盾效果</span>时，会对其附近的敌人们造成伤害和<span class=\"lol-status\">减速</span>。",
+      "en": "Granting a buff, <span class=\"lol-healing\">heal</span>, or <span class=\"lol-shield\">shield</span> to your ally deals <span class=\"lol-stat\">30 to 150 true damage</span> to enemies within 450 units of them and <span class=\"lol-status\" title=\"slows\">slow</span> targets by 30% for 2 seconds (2 second cooldown)."
+    },
+    "icon": "76.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Sonic Boom"
+  },
+  {
+    "id": "107",
+    "tier": "Gold",
+    "name": {
+      "zh": "接二连三",
+      "en": "Twice Thrice"
+    },
+    "description": {
+      "zh": "每第三次攻击，你附带的攻击特效会触发第二次。",
+      "en": "Basic attacks generate a stack, up to 2 times. At 2 stacks, your next basic attack consumes all stacks to apply <span class=\"lol-keyword\">on-hit</span> effects again at 150% effectiveness."
+    },
+    "icon": "107.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Twice Thrice"
+  },
+  {
+    "id": "13",
+    "tier": "Gold",
+    "name": {
+      "zh": "星界躯体",
+      "en": "Celestial Body"
+    },
+    "description": {
+      "zh": "获得<span class=\"lol-scale-health\">1500生命值</span>，但你造成的伤害降低10%。",
+      "en": "Gain <span class=\"lol-stat\">1500 'bonus' health</span>, but reduce your damage output by 10%."
+    },
+    "icon": "13.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Celestial Body"
+  },
+  {
+    "id": "150",
+    "tier": "Gold",
+    "name": {
+      "zh": "面包和果酱",
+      "en": "Bread And Jam"
+    },
+    "description": {
+      "zh": "你的W获得100技能急速。",
+      "en": "Your champion's second basic ability (W) gains <span class=\"lol-stat\">100 ability haste</span>."
+    },
+    "icon": "150.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Bread And Jam"
+  },
+  {
+    "id": "98",
+    "tier": "Gold",
+    "name": {
+      "zh": "急急小子",
+      "en": "With Haste"
+    },
+    "description": {
+      "zh": "获得额外<span class=\"lol-speed\">移动速度</span>，数额相当于你<span class=\"lol-stat\">100%的技能急速</span>。",
+      "en": "Grants <span class=\"lol-stat\">'bonus' movement speed</span> equal to <span class=\"lol-stat\">100% ability haste</span>."
+    },
+    "icon": "98.webp",
+    "source": "wiki_merged",
+    "wikiKey": "With Haste"
+  },
+  {
+    "id": "198",
+    "tier": "Gold",
+    "name": {
+      "zh": "圣火",
+      "en": "Holy Fire"
+    },
+    "description": {
+      "zh": "你的<span class=\"lol-healing\">治疗</span>和<span class=\"lol-shield\">护盾</span>会向 650 码内最近的敌方英雄发射一枚飞弹，命中后施加<span class=\"lol-status\">灼烧</span>效果，在 5 秒内每秒造成相当于<span class=\"lol-stat\">目标 0.2% 最大生命值</span>的<span class=\"lol-magic-damage\">魔法伤害</span>，共计 <span class=\"lol-stat\">1%</span>（1.5秒冷却时间）。<br/><br/><span class=\"lol-status\">灼烧</span>伤害会根据治疗或护盾数值占友军最大生命值的比例提升，最高每秒 <span class=\"lol-stat\">0.8%</span> （共计 <span class=\"lol-stat\">4%</span>）。",
+      "en": "Your <span class=\"lol-healing\">heals</span> and <span class=\"lol-shield\">shields</span> fire a missile at the nearest enemy champion within 650 units. Upon arrival, it applies a <span class=\"lol-status\">Burn</span> that deals <span class=\"lol-magic-damage\">magic damage</span> equal to <span class=\"lol-stat\">0.2% of the target's maximum health</span> every second for 5 seconds, totaling <span class=\"lol-stat\">1%</span> (1.5s cooldown).<br/><br/>The <span class=\"lol-status\">Burn</span> damage increases based on the heal/shield strength relative to the ally's maximum health, up to <span class=\"lol-stat\">0.8%</span> per second (total <span class=\"lol-stat\">4%</span>)."
+    },
+    "icon": "198.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Holy Fire"
+  },
+  {
+    "id": "311",
+    "tier": "Gold",
+    "name": {
+      "zh": "溢流",
+      "en": "Overflow"
+    },
+    "description": {
+      "zh": "你的<span class=\"lol-scale-mana\">法力值</span>消耗翻倍。你的技能的<span class=\"lol-healing\">治疗效果</span>、<span class=\"lol-shield\">护盾效果</span>和伤害获得提升，提升幅度基于你的<span class=\"lol-scale-mana\">最大法力值</span>。",
+      "en": "Your abilities' <span class=\"lol-stat\">mana</span> costs are doubled, but you also gain 10% <span class=\"lol-mana\">(+ 0.5% per 100 'maximum' mana)</span> increased damage as well as self and outgoing <span class=\"lol-healing\" title=\"healing\">heal</span> and <span class=\"lol-shield\" title=\"shielding\">shield</span>."
+    },
+    "icon": "311.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Overflow"
+  },
+  {
+    "id": "35",
+    "tier": "Prismatic",
+    "name": {
+      "zh": "感受燃烧",
+      "en": "Feel the Burn"
+    },
+    "description": {
+      "zh": "将未被<b>[[闪现]]</b>占用的召唤师技能替换为<b>“感受灼烧”</b>。此外，<b>[[引燃]]</b>现在被视为<span class=\"lol-status\">灼烧</span>来源。<br/><br/><b>感受灼烧</b>：对 800 码范围内的所有敌方英雄同时施加<b>[[虚弱]]</b>和<b>[[引燃]]</b>。<br/><b>虚弱</b>的<span class=\"lol-status\">减速</span>效果提升至 50%。<br/><b>引燃</b>在该期间造成的伤害调整为 <span class=\"lol-true-damage\">70 - 410</span> (基于等级) <span class=\"lol-true-damage\">真实伤害</span>。",
+      "en": "Replaces the summoner spell in the slot not occupied by <b>[[Flash]]</b> with <b>Feel the Burn</b>. Additionally, <b>[[Ignite]]</b> counts as a <span class=\"lol-status\">Burn</span> source.<br/><br/><b>Feel the Burn</b>: Casts both <b>[[Exhaust]]</b> and <b>[[Ignite]]</b> on all enemy champions within 800 units.<br/>The <b>Exhaust</b> <span class=\"lol-status\">slow</span> strength is increased to 50%.<br/>The <b>Ignite</b> deals <span class=\"lol-true-damage\">70 - 410</span> (based on level) <span class=\"lol-true-damage\">true damage</span> over the duration."
+    },
+    "icon": "35.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Feel the Burn"
+  },
+  {
+    "id": "42",
+    "tier": "Silver",
+    "name": {
+      "zh": "恶趣味",
+      "en": "Guilty Pleasure"
+    },
+    "description": {
+      "zh": "<span class=\"lol-status\" title=\"Immobilizing\">禁锢</span>或<span class=\"lol-status\" title=\"grounding\">压制</span>敌方英雄将<span class=\"lol-healing\" title=\"heals\">为你回复</span>30 至 250<span class=\"lol-stat\">(+1.5%最大生命值)</span>生命值（每次<span class=\"lol-keyword\">施法实例</span>冷却时间 5 秒）。",
+      "en": "<span class=\"lol-status\" title=\"Immobilizing\">Immobilize</span> or <span class=\"lol-status\" title=\"grounding\">ground</span> an enemy champion <span class=\"lol-healing\" title=\"heals\">heal</span> you for 30 to 250 <span class=\"lol-stat\">(+ 1.5% 'maximum' health)</span> (5 second cooldown per <span class=\"lol-keyword\">cast instance</span>)."
+    },
+    "icon": "42.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Guilty Pleasure"
+  },
+  {
+    "id": "71",
+    "tier": "Gold",
+    "name": {
+      "zh": "更万用的瞄准镜",
+      "en": "Scopier Weapons"
+    },
+    "description": {
+      "zh": "获得200攻击距离，如果你是远程英雄则降低至100攻击距离。",
+      "en": "Gain 100 'bonus' attack range."
+    },
+    "icon": "71.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Scopier Weapons"
+  },
+  {
+    "id": "9",
+    "tier": "Silver",
+    "name": {
+      "zh": "霸符兄弟",
+      "en": "Buff Buddies"
+    },
+    "description": {
+      "zh": "你获得<font color = '#f30c1a'>余烬之冠</font>和<font color = '#1542ea'>洞悉之冠</font>。",
+      "en": "Grants <b>Crest of Cinders</b> and <b>Crest of Insight</b> permanently."
+    },
+    "icon": "9.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Buff Buddies"
+  },
+  {
+    "id": "63",
+    "tier": "Gold",
+    "name": {
+      "zh": "狂徒豪气",
+      "en": "Outlaw's Grit"
+    },
+    "description": {
+      "zh": "你的冲刺或闪烁会为你提供12<span class=\"lol-scale-armor\">额外护甲</span>和<span class=\"lol-scale-m-r\">额外魔法抗性</span>，至多叠加5层（总计60点）。每60秒层数会重置。",
+      "en": "<span class=\"lol-keyword\" title=\"Dashing\">Dash</span> or <span class=\"lol-keyword\" title=\"blinking\">blink</span> grants 12 <span class=\"lol-stat\">'bonus' armor</span> and <span class=\"lol-stat\">'bonus' magic resistance</span>, stacking up to 5 times for a total of 60 'bonus' resistances. Stacks are reset every 60 seconds since acquiring the augment."
+    },
+    "icon": "63.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Outlaw's Grit"
+  },
+  {
+    "id": "26",
+    "tier": "Silver",
+    "name": {
+      "zh": "唯快不破",
+      "en": "Don't Blink"
+    },
+    "description": {
+      "zh": "当你的移动速度每比目标高出<span class=\"lol-stat\">10 点</span>时，造成的伤害提高 1%。",
+      "en": "Deal 1% increased damage per <span class=\"lol-stat\">10 movement speed</span> you have more than the target."
+    },
+    "icon": "26.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Don't Blink"
+  },
+  {
+    "id": "73",
+    "tier": "Silver",
+    "name": {
+      "zh": "暗影疾奔",
+      "en": "Shadow Runner"
+    },
+    "description": {
+      "zh": "在使用一个冲刺、跳跃、闪烁或传送类技能或离开<span class=\"lol-stealth\">潜行</span>状态之后，获得持续2秒的<span class=\"lol-speed\">300移动速度</span>。",
+      "en": "After <span class=\"lol-keyword\" title=\"dashing\">dash</span>, <span class=\"lol-keyword\" title=\"blinking\">blink</span>, or exiting <span class=\"lol-keyword\">stealth</span>, gain <span class=\"lol-stat\">300 'bonus' movement speed</span> for 2 seconds."
+    },
+    "icon": "73.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Shadow Runner"
+  },
+  {
+    "id": "45",
+    "tier": "Prismatic",
+    "name": {
+      "zh": "炼狱导管",
+      "en": "Infernal Conduit"
+    },
+    "description": {
+      "zh": "你的技能命中敌方英雄时，会施加一层持续 3 秒的<span class=\"lol-status\">灼烧</span>，在持续时间内造成 <span class=\"lol-magic-damage\">6 - 60</span> (基于等级) <span class=\"lol-stat\">(+ 14% 额外攻击力)</span> <span class=\"lol-stat\">(+ 6% 法术强度)</span> 的<span class=\"lol-magic-damage\">魔法伤害</span>（每次施法有 1 秒冷却时间）。<span class=\"lol-status\">灼烧</span>可无限叠加，且每次施加时刷新持续时间。<br/><br/>此外，你的所有<span class=\"lol-status\">灼烧</span>效果每造成一次伤害，你的基础技能冷却时间就会缩短 <span class=\"lol-stat\">0.08 秒</span>。",
+      "en": "Your ability hits against champions apply a <span class=\"lol-status\">Burn</span> for 3 seconds that deals <span class=\"lol-magic-damage\">6 - 60</span> (based on level) <span class=\"lol-stat\">(+ 14% bonus AD)</span> <span class=\"lol-stat\">(+ 6% AP)</span> <span class=\"lol-magic-damage\">magic damage</span> over the duration (1 second cooldown per cast instance). This <span class=\"lol-status\">Burn</span> stacks infinitely and refreshes with each application.<br/><br/>Additionally, all of your <span class=\"lol-status\">Burn</span> effects reduce the cooldowns of all your basic abilities by <span class=\"lol-stat\">0.08 seconds</span> for each tick of damage they deal to a target."
+    },
+    "mechanism": {
+      "zh": "队伍中多个英雄拥有该符文时，共享灼烧效果提供的冷却缩减。",
+      "en": "When multiple champions have this rune, they share the cooldown reduction provided by the Burn effect."
+    },
+    "icon": "45.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Infernal Conduit"
+  },
+  {
+    "id": "205",
+    "tier": "Silver",
+    "name": {
+      "zh": "物理转魔法",
+      "en": "ADAPt"
+    },
+    "description": {
+      "zh": "将<span class=\"lol-scale-a-d\">额外攻击力</span>转化为<span class=\"lol-scale-a-p\">法术强度</span>。获得<span class=\"lol-scale-a-p\">15%法术强度</span>。",
+      "en": "Convert 'all' of your <span class=\"lol-stat\">'bonus' attack damage</span> into <span class=\"lol-stat\">ability power</span> at a rate of <span class=\"lol-scale-a-p\">1 ability power</span> per <span class=\"lol-scale-a-d\">0.6 'bonus' attack damage</span>. Additionally, increase your <span class=\"lol-stat\">ability power by 15%</span>."
+    },
+    "icon": "205.webp",
+    "source": "wiki_merged",
+    "wikiKey": "ADAPt"
+  },
+  {
+    "id": "4",
+    "tier": "Prismatic",
+    "name": {
+      "zh": "回归基本功",
+      "en": "Back To Basics"
+    },
+    "description": {
+      "zh": "你的英雄技能造成的伤害提升 <span class=\"lol-stat\">35%</span>，获得 <span class=\"lol-stat\">70 技能急速</span>，并且所有来源的<span class=\"lol-healing\">治疗</span>和<span class=\"lol-shield\">护盾</span>效果提升 <span class=\"lol-stat\">35%</span>。作为代价，你的终极技能将被永久<span class=\"lol-status\">封印</span>。",
+      "en": "Your champion's abilities deal <span class=\"lol-stat\">35%</span> increased damage. Gain <span class=\"lol-stat\">70 Ability Haste</span>, and <span class=\"lol-stat\">35%</span> increased <span class=\"lol-healing\">healing</span> and <span class=\"lol-shield\">shielding</span> from all sources. However, your Ultimate ability is permanently <span class=\"lol-status\">Sealed</span>."
+    },
+    "icon": "4.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Back to Basics"
+  },
+  {
+    "id": "77",
+    "tier": "Gold",
+    "name": {
+      "zh": "灵魂虹吸",
+      "en": "Soul Siphon"
+    },
+    "description": {
+      "zh": "你的<span class=\"lol-keyword\">暴击</span>会为你提供相当于伤害值12%的<span class=\"lol-healing\">治疗</span>。此外，获得<span class=\"lol-keyword\">25%暴击几率</span>。",
+      "en": "Your <span class=\"lol-keyword\" title=\"critical strikes\">critical strike</span> <span class=\"lol-healing\">heal</span> you for 12% of damage dealt. Additionally, gain <span class=\"lol-stat\">25% critical strike chance</span>."
+    },
+    "mechanism": {
+      "zh": "目前可与珠光护手产生联动 BUG，回复大量生命值",
+      "en": "BUG with Jeweled Gauntlet"
+    },
+    "icon": "77.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Soul Siphon"
+  },
+  {
+    "id": "301",
+    "tier": "Gold",
+    "name": {
+      "zh": "神圣干预",
+      "en": "Divine Intervention"
+    },
+    "description": {
+      "zh": "自动施放塔里克大招：召唤一颗保护星在你身上，在2.5秒后降落。随后你和400码内的友军进入持续2.5秒的<span class=\"lol-status\">伤害免疫</span>状态（35秒冷却）。",
+      "en": "Automatically cast Taric, calling down a protective star upon you that descends over 2.5 seconds. Afterwards, you and all allied champions within  400 units become <span class=\"lol-keyword\">invulnerable</span> for 2.5 seconds (35 second cooldown)."
+    },
+    "icon": "301.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Divine Intervention"
+  },
+  {
+    "id": "84",
+    "tier": "Gold",
+    "name": {
+      "zh": "穿针引线",
+      "en": "Thread the Needle"
+    },
+    "description": {
+      "zh": "获得18%<span class=\"lol-scale-armor\">护甲穿透</span>和<span class=\"lol-scale-m-r\">法术穿透</span>。",
+      "en": "Grants 18% <span class=\"lol-stat\">armor penetration</span> and <span class=\"lol-scale-m-r\">magic penetration</span>."
+    },
+    "icon": "84.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Thread the Needle"
+  },
+  {
+    "id": "151",
+    "tier": "Gold",
+    "name": {
+      "zh": "面包和奶酪",
+      "en": "Bread And Cheese"
+    },
+    "description": {
+      "zh": "你的E获得100技能急速。",
+      "en": "Your champion's third basic ability (E) gains <span class=\"lol-stat\">100 ability haste</span>."
+    },
+    "icon": "151.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Bread And Cheese"
+  },
+  {
+    "id": "149",
+    "tier": "Gold",
+    "name": {
+      "zh": "不动如山",
+      "en": "Impassable"
+    },
+    "description": {
+      "zh": "获<span class=\"lol-spell-name\">[[余震]]</span>和<span class=\"lol-spell-name\">[[冰川增幅]]</span>基石符文。",
+      "en": "Gain the Aftershock and Glacial Augment keystone runes."
+    },
+    "icon": "149.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Impassable"
+  },
+  {
+    "id": "317",
+    "tier": "Prismatic",
+    "name": {
+      "zh": "潘朵拉的盒子",
+      "en": "Pandora's Box"
+    },
+    "description": {
+      "zh": "将你的所有强化符文变为随机的棱彩阶强化符文。",
+      "en": "Your current augments transform into an equal number of completely random Prismatic ones."
+    },
+    "icon": "317.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Pandora's Box"
+  },
+  {
+    "id": "75",
+    "tier": "Prismatic",
+    "name": {
+      "zh": "慢炖",
+      "en": "Slow Cooker"
+    },
+    "description": {
+      "zh": "你的周围环绕着烈焰。每秒对 500 码范围内的敌方英雄施加一层持续 3 秒的<span class=\"lol-status\">灼烧</span>，在持续时间内造成相当于你<span class=\"lol-stat\">最大生命值 2%</span> 的<span class=\"lol-magic-damage\">魔法伤害</span>。<span class=\"lol-status\">灼烧</span>可无限叠加，且每次施加时刷新持续时间。",
+      "en": "Surrounds you in flames. Every second, apply a <span class=\"lol-status\">Burn</span> for 3 seconds to enemy champions within 500 units, dealing <span class=\"lol-magic-damage\">magic damage</span> equal to <span class=\"lol-stat\">2% of your maximum health</span> over the duration. This <span class=\"lol-status\">Burn</span> stacks infinitely and refreshes with each application."
+    },
+    "icon": "75.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Slow Cooker"
+  },
+  {
+    "id": "225",
+    "tier": "Prismatic",
+    "name": {
+      "zh": "双刀流",
+      "en": "Dual Wield"
+    },
+    "description": {
+      "zh": "你的普通攻击会向目标发射一枚次级弩箭，造成 <span class=\"lol-physical-damage\">40%</span> 攻击伤害并施加 <span class=\"lol-stat\">40% 效能</span>的攻击特效。此外，获得 <span class=\"lol-stat\">20% 总攻击速度</span>。",
+      "en": "Your basic attacks fire an additional bolt at the target, dealing <span class=\"lol-physical-damage\">40%</span> of the attack's damage and applying on-hit effects at <span class=\"lol-stat\">40% effectiveness</span>. Additionally, gain <span class=\"lol-stat\">20% total Attack Speed</span>."
+    },
+    "icon": "225.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Dual Wield"
+  },
+  {
+    "id": "138",
+    "tier": "Silver",
+    "name": {
+      "zh": "渴血",
+      "en": "Goredrink"
+    },
+    "description": {
+      "zh": "获得15%<span class=\"lol-healing\">全能吸血</span>。",
+      "en": "Gain <span class=\"lol-stat\">15% omnivamp</span>."
+    },
+    "icon": "138.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Goredrink"
+  },
+  {
+    "id": "37",
+    "tier": "Silver",
+    "name": {
+      "zh": "急救用具",
+      "en": "First-Aid Kit"
+    },
+    "description": {
+      "zh": "获得20%<span class=\"lol-healing\">治疗和护盾强度</span>。",
+      "en": "Grants 20% heal and shield power."
+    },
+    "icon": "37.webp",
+    "source": "wiki_merged",
+    "wikiKey": "First-Aid Kit"
+  },
+  {
+    "id": "61",
+    "tier": "Gold",
+    "name": {
+      "zh": "回力OK镖",
+      "en": "OK Boomerang"
+    },
+    "description": {
+      "zh": "每10秒自动朝着1250码内最近的敌方英雄施放希维尔Q技能，造成40-200<span class=\"lol-stat\">(+30%额外AD)</span><span class=\"lol-stat\">(+20%AP)</span>的<span class=\"lol-keyword\">自适应伤害</span>。",
+      "en": "Automatically cast Sivir at the closest nearby enemy champion within 1250 units, dealing 40 to 200 <span class=\"lol-stat\">(+ 30% 'bonus' AD)</span> <span class=\"lol-stat\">(+ 20% AP)</span> <span class=\"lol-keyword\">adaptive damage</span> to enemies hit (10 second cooldown)."
+    },
+    "icon": "61.webp",
+    "source": "wiki_merged",
+    "wikiKey": "OK Boomerang"
+  },
+  {
+    "id": "115",
+    "tier": "Prismatic",
+    "name": {
+      "zh": "最万用的瞄准镜",
+      "en": "Scopiest Weapons"
+    },
+    "description": {
+      "zh": "获得250攻击距离，如果你是远程英雄则降低至150攻击距离。",
+      "en": "Gain 150 'bonus' attack range."
+    },
+    "icon": "115.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Scopiest Weapons"
+  },
+  {
+    "id": "206",
+    "tier": "Silver",
+    "name": {
+      "zh": "魔法转物理",
+      "en": "escAPADe"
+    },
+    "description": {
+      "zh": "将<span class=\"lol-scale-a-p\">法术强度</span>转化为<span class=\"lol-scale-a-d\">额外攻击力</span>。获得<span class=\"lol-scale-a-d\">15%攻击力</span>。",
+      "en": "Convert 'all' of your <span class=\"lol-stat\">ability power</span> into <span class=\"lol-stat\">'bonus' attack damage</span> at a rate of <span class=\"lol-scale-a-d\">1 'bonus' attack damage</span> per <span class=\"lol-scale-a-p\">1.66 ability power</span>. Additionally, increase your <span class=\"lol-stat\">'total' attack damage by 15%</span>."
+    },
+    "icon": "206.webp",
+    "source": "wiki_merged",
+    "wikiKey": "EscAPADe"
+  },
+  {
+    "id": "194",
+    "tier": "Prismatic",
+    "name": {
+      "zh": "精怪魔法",
+      "en": "Fey Magic"
+    },
+    "description": {
+      "zh": "你的终极技能对敌人造成伤害时会将其<span class=\"lol-status\">变形</span>2秒，期间其基础移速降低60并在持续期间被<span class=\"lol-status\">缴械</span>（每个目标15秒冷却）。",
+      "en": "Damaging enemies with your ultimate ability <span class=\"lol-status\" title=\"polymorphs\">polymorph</span> them into harmless critters for 2 seconds, during which their <span class=\"lol-stat\">'base' movement speed</span> is reduced by <span class=\"lol-ms\">60</span>, and <span class=\"lol-keyword\" title=\"disarms\">disarm</span> them for the same duration (15 second cooldown per target)."
+    },
+    "icon": "194.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Fey Magic"
+  },
+  {
+    "id": "36",
+    "tier": "Gold",
+    "name": {
+      "zh": "火上浇油",
+      "en": "Firebrand"
+    },
+    "description": {
+      "zh": "你的攻击会施加一个可无限叠加的<span class=\"lol-keyword-major\">灼烧</span>攻击特效，持续造成伤害。",
+      "en": "Basic attacks apply a <span class=\"lol-stat\">Burn</span> for 5 seconds that deals <span class=\"lol-stat\">'bonus' magic damage</span> equal to<span class=\"lol-stat\">2% of the target's 'maximum' health</span> over the duration.This <span class=\"lol-stat\">Burn</span> stacks infinitely and refreshes with each application."
+    },
+    "icon": "36.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Firebrand"
+  },
+  {
+    "id": "116",
+    "tier": "Gold",
+    "name": {
+      "zh": "闪现向前",
+      "en": "Flashy"
+    },
+    "description": {
+      "zh": "你的【[[闪现]]】现在拥有3层充能，每次使用之间有2秒冷却（全部3层充能的充能时间为120秒）。",
+      "en": "Your <b>[[Flash]]</b> now has 3 charges with a 2-second cooldown between casts (120 seconds recharge time for all 3 charges).<br><br><span class=\"lol-buzzword3\">'This augment is currently disabled.'</span>"
+    },
+    "icon": "116.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Flashy"
+  },
+  {
+    "id": "81",
+    "tier": "Prismatic",
+    "name": {
+      "zh": "踢踏舞",
+      "en": "Tap Dancer"
+    },
+    "description": {
+      "zh": "你的攻击会为你提供<span class=\"lol-speed\">10移动速度</span>，可无限叠加。获得相当于你10% <span class=\"lol-speed\">移动速度</span>的<span class=\"lol-attack-speed\">攻击速度</span>。",
+      "en": "Basic attacks <span class=\"lol-keyword\">on-hit</span> against enemy champions and minions grant <span class=\"lol-stat\">10 'bonus' movement speed</span>, lasting for 5 seconds, refreshing on subsequent triggers, and stacking infinitely. Additionally, gain <span class=\"lol-stat\">'bonus' attack speed</span> equal to <span class=\"lol-stat\">10% 'total' movement speed</span>."
+    },
+    "icon": "81.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Tap Dancer"
+  },
+  {
+    "id": "220",
+    "tier": "Prismatic",
+    "name": {
+      "zh": "连拨击锤",
+      "en": "Fan the Hammer"
+    },
+    "description": {
+      "zh": "对750码内每个基本方位（上下左右）的下次普攻会额外发射5枚爆竹，每枚箭矢造成<span class=\"lol-physical-damage\">10-52.5(+15%额外AD)</span>的<span class=\"lol-physical-damage\">物理伤害</span>。每枚箭矢可以<span class=\"lol-keyword\">暴击</span>并施加20%效力的攻击特效（每个方向单独5秒冷却）。",
+      "en": "Your next basic attack in each cardinal direction within 750 range additionally on-attack fires 5 firecrackers at the target that each deal <span class=\"lol-physical-damage\">10 to 52.5</span> <span class=\"lol-stat\">(+ 15% 'bonus' AD)</span> <span class=\"lol-stat\">physical damage</span>, for a total of <span class=\"lol-physical-damage\">10*5 to 52.5*5</span> <span class=\"lol-stat\">(+ 15*5% 'bonus' AD)</span> <span class=\"lol-stat\">physical damage</span> (5 second cooldown per direction). Bolts' damage is increased by 0 to 50 for 11. Each bolt can <span class=\"lol-keyword\">critically strike</span> and applies on-hit effects at 20% effectiveness."
+    },
+    "icon": "220.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Fan the Hammer"
+  },
+  {
+    "id": "85",
+    "tier": "Silver",
+    "name": {
+      "zh": "折磨者",
+      "en": "Tormentor"
+    },
+    "description": {
+      "zh": "<span class=\"lol-status\">定身</span>或<span class=\"lol-status\">缚地</span>敌方英雄时提供一层<span class=\"lol-keyword-major\">灼烧</span>，这个效果会持续造成伤害并可无限叠加。",
+      "en": "<span class=\"lol-status\" title=\"Immobilizing\">Immobilize</span> or <span class=\"lol-status\" title=\"grounding\">ground</span> an enemy champion inflicts them with a <span class=\"lol-stat\">Burn</span> for 5 seconds, dealing <span class=\"lol-stat\">magic damage</span> equal to<span class=\"lol-stat\">4% of the target's 'maximum' health</span> over the duration(5 second cooldown per <span class=\"lol-keyword\">cast instance</span>). This <span class=\"lol-stat\">Burn</span> stacks infinitely and refreshes with each application."
+    },
+    "icon": "85.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Tormentor"
+  },
+  {
+    "id": "104",
+    "tier": "Gold",
+    "name": {
+      "zh": "仆从大师",
+      "en": "Minionmancer"
+    },
+    "description": {
+      "zh": "你的召唤物获得40%的伤害提升、<span class=\"lol-scale-health\">额外生命值</span>和体型提升。",
+      "en": "Your <span class=\"lol-keyword\" title=\"pets\">pet</span> deal 40% increased damage as well as gain 40% <span class=\"lol-stat\">'bonus' health</span> and size."
+    },
+    "icon": "104.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Minionmancer"
+  },
+  {
+    "id": "313",
+    "tier": "Gold",
+    "name": {
+      "zh": "坦克引擎",
+      "en": "Tank Engine"
+    },
+    "description": {
+      "zh": "参与击杀英雄会获得一层叠加效果。每层效果提升5%<span class=\"lol-scale-health\">最大生命值</span>和体型。阵亡时失去65%层数。",
+      "en": "Scoring a champion <span class=\"lol-keyword\">takedown</span> generates a stack. For each stack, increase your <span class=\"lol-stat\">'maximum' health</span> and size by 5%. Lose 65% of stacks on death."
+    },
+    "icon": "313.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Tank Engine"
+  },
+  {
+    "id": "29",
+    "tier": "Gold",
+    "name": {
+      "zh": "虚幻武器",
+      "en": "Ethereal Weapon"
+    },
+    "description": {
+      "zh": "你的技能可施加攻击特效。每个目标有1秒冷却时间。",
+      "en": "Your abilities apply on-hit effects at 100% effectiveness (1 second cooldown per target)."
+    },
+    "icon": "29.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Ethereal Weapon"
+  },
+  {
+    "id": "62",
+    "tier": "Prismatic",
+    "name": {
+      "zh": "全能龙魂",
+      "en": "Omni Soul"
+    },
+    "description": {
+      "zh": "获得3个随机龙魂。",
+      "en": "Grants 3 random <b>Dragon Souls</b>."
+    },
+    "icon": "62.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Omni Soul"
+  },
+  {
+    "id": "20",
+    "tier": "Gold",
+    "name": {
+      "zh": "黎明使者的坚决",
+      "en": "Dawnbringer's Resolve"
+    },
+    "description": {
+      "zh": "在生命值跌到50%以下时，会在3秒内获得30%<span class=\"lol-scale-health\">最大生命值</span>的<span class=\"lol-healing\">治疗</span>（45秒冷却，阵亡重置）。",
+      "en": "Upon dropping below <span class=\"lol-stat\">50% 'maximum' health</span>, you are <span class=\"lol-healing\" title=\"healed\">heal</span> for <span class=\"lol-stat\">30% 'maximum' health</span> over 3 seconds (45 second cooldown, reset upon death)."
+    },
+    "icon": "20.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Dawnbringer's Resolve"
+  },
+  {
+    "id": "38",
+    "tier": "Gold",
+    "name": {
+      "zh": "有始有终",
+      "en": "From Beginning to End"
+    },
+    "description": {
+      "zh": "获得<span class=\"lol-spell-name\">[[先攻]]</span>和<span class=\"lol-spell-name\">[[黑暗收割]]</span>基石符文。",
+      "en": "Gain the [[Dark Harvest]] and [[First Strike]] keystone runes."
+    },
+    "icon": "38.webp",
+    "source": "wiki_merged",
+    "wikiKey": "From Beginning to End"
+  },
+  {
+    "id": "11",
+    "tier": "Prismatic",
+    "name": {
+      "zh": "你摸不到",
+      "en": "Can't Touch This"
+    },
+    "description": {
+      "zh": "施放你的终极技能会使你进入短时间的<span class=\"lol-keyword-major\">免疫伤害</span>状态。",
+      "en": "Casting your ultimate grants you <span class=\"lol-keyword\">invulnerability</span> for 2 seconds (8 second cooldown)."
+    },
+    "icon": "11.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Can't Touch This"
+  },
+  {
+    "id": "47",
+    "tier": "Gold",
+    "name": {
+      "zh": "关键暴击",
+      "en": "It's Critical"
+    },
+    "description": {
+      "zh": "获得<span class=\"lol-keyword\">50%暴击几率</span>。",
+      "en": "Grants <span class=\"lol-stat\">50% critical strike chance</span>."
+    },
+    "icon": "47.webp",
+    "source": "wiki_merged",
+    "wikiKey": "It's Critical"
+  },
+  {
+    "id": "112",
+    "tier": "Silver",
+    "name": {
+      "zh": "终极不可阻挡",
+      "en": "Ultimate Unstoppable"
+    },
+    "description": {
+      "zh": "施放终极技能后获得3秒的<span class=\"lol-status\">控制免疫</span>（8秒冷却）。",
+      "en": "Casting your ultimate ability grants you <span class=\"lol-keyword\" title=\"crowd control immunity\">cc-immune</span> for 3 seconds (8 second cooldown)."
+    },
+    "icon": "112.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Ultimate Unstoppable"
+  },
+  {
+    "id": "68",
+    "tier": "Gold",
+    "name": {
+      "zh": "循环往复",
+      "en": "Recursion"
+    },
+    "description": {
+      "zh": "获得60技能急速。",
+      "en": "Grants <span class=\"lol-stat\">60 ability haste</span>."
+    },
+    "icon": "68.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Recursion"
+  },
+  {
+    "id": "22",
+    "tier": "Silver",
+    "name": {
+      "zh": "灵巧",
+      "en": "Deft"
+    },
+    "description": {
+      "zh": "获得60%<span class=\"lol-speed\">攻击速度</span>。",
+      "en": "Grants <span class=\"lol-stat\">60% 'bonus' attack speed</span>."
+    },
+    "icon": "22.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Deft"
+  },
+  {
+    "id": "41",
+    "tier": "Prismatic",
+    "name": {
+      "zh": "歌利亚巨人",
+      "en": "Goliath"
+    },
+    "description": {
+      "zh": "体型变大，获得<span class=\"lol-scale-health\">35%生命值</span>和<span class=\"lol-scale-a-p\">15%适应之力</span>。",
+      "en": "Grants <span class=\"lol-stat\">35% 'bonus' health</span>, 15% <span class=\"lol-keyword\">adaptive force</span>, and 50% increased size."
+    },
+    "icon": "41.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Goliath"
+  },
+  {
+    "id": "305",
+    "tier": "Silver",
+    "name": {
+      "zh": "练腿日",
+      "en": "Leg Day"
+    },
+    "description": {
+      "zh": "获得<span class=\"lol-speed\">50移动速度</span>和<span class=\"lol-speed\">40%减速抗性</span>。",
+      "en": "Gain <span class=\"lol-stat\">50 'bonus' movement speed</span> and 40% <span class=\"lol-status\">slow resist</span>."
+    },
+    "icon": "305.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Leg Day"
+  },
+  {
+    "id": "208",
+    "tier": "Prismatic",
+    "name": {
+      "zh": "水豚空降",
+      "en": "Droppybara"
+    },
+    "description": {
+      "zh": "在2秒后，一只水豚会降落到地面，对落点处的敌人造成<span class=\"lol-true-damage\">25%最大生命值的真实伤害</span>。",
+      "en": "After 2 seconds, a Capybara lands on the ground, dealing <span class=\"lol-true-damage\">25% max Health true damage</span>."
+    },
+    "icon": "208.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Droppybara"
+  },
+  {
+    "id": "58",
+    "tier": "Prismatic",
+    "name": {
+      "zh": "秘术冲拳",
+      "en": "Mystic Punch"
+    },
+    "description": {
+      "zh": "攻击特效使你的各个技能的冷却时间缩减1.25秒。",
+      "en": "Attack effects reduce the cooldown of each of your skills by 1.25 seconds."
+    },
+    "icon": "58.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Mystic Punch"
+  },
+  {
+    "id": "105",
+    "tier": "Silver",
+    "name": {
+      "zh": "家园卫士",
+      "en": "Homeguard"
+    },
+    "description": {
+      "zh": "获得<span class=\"lol-speed\">100%移动速度</span>，在受到伤害后失效3秒。",
+      "en": "Gain <span class=\"lol-stat\">100% 'bonus' movement speed</span>. This bonus is lost for 3 seconds after taking damage from champions."
+    },
+    "icon": "105.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Homeguard"
+  },
+  {
+    "id": "181",
+    "tier": "Silver",
+    "name": {
+      "zh": "重量级打击手",
+      "en": "Heavy Hitter"
+    },
+    "description": {
+      "zh": "普通攻击造成相当于你<span class=\"lol-scale-health\">3.5%最大生命值</span>的额外<span class=\"lol-physical-damage\">物理伤害</span>。",
+      "en": "Basic attacks deal <span class=\"lol-stat\">'bonus' physical damage</span> equal to <span class=\"lol-stat\">3.5% of your 'maximum' health</span>."
+    },
+    "icon": "181.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Heavy Hitter"
+  },
+  {
+    "id": "67",
+    "tier": "Gold",
+    "name": {
+      "zh": "古式佳酿",
+      "en": "Rabble Rousing"
+    },
+    "description": {
+      "zh": "施放技能时会为你提供<span class=\"lol-healing\">5-60(+1%最大生命值)</span>的<span class=\"lol-healing\">治疗</span>。",
+      "en": "Casting an ability <span class=\"lol-healing\" title=\"heals\">heal</span> you for 5 to 60 <span class=\"lol-stat\">(+ 1% 'maximum' health)</span>."
+    },
+    "icon": "67.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Rabble Rousing"
+  },
+  {
+    "id": "195",
+    "tier": "Prismatic",
+    "name": {
+      "zh": "巨人杀手",
+      "en": "Giant Slayer"
+    },
+    "description": {
+      "zh": "体型缩小75%，获得<span class=\"lol-speed\">30%额外移动速度</span>。此外，对体型大于你的敌方英雄造成10%/15%/25%/30%额外伤害。",
+      "en": "Become tiny, reducing your size by 75% and gaining <span class=\"lol-stat\">30% 'bonus' movement speed</span>. Additionally, deal 10;15;25;30 'bonus' damage against enemy champions with greater size than you."
+    },
+    "icon": "195.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Giant Slayer"
+  },
+  {
+    "id": "238",
+    "tier": "Gold",
+    "name": {
+      "zh": "质变：棱彩阶",
+      "en": "Transmute: Prismatic"
+    },
+    "description": {
+      "zh": "获得1个随机棱彩阶强化符文。",
+      "en": "Gain one random Prismatic augment, excluding the other two offerings in your current assortment."
+    },
+    "icon": "238.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Transmute: Prismatic"
+  },
+  {
+    "id": "118",
+    "tier": "Gold",
+    "name": {
+      "zh": "会心治疗",
+      "en": "Critical Healing"
+    },
+    "description": {
+      "zh": "你的<span class=\"lol-healing\">治疗</span>和<span class=\"lol-shield\">护盾</span>可以暴击，获得40%额外数额的效果。获得25%暴击几率。 ",
+      "en": "Your <span class=\"lol-healing\">heals</span> and <span class=\"lol-shield\">shields</span> now have a chance equal to your <span class=\"lol-stat\">critical strike chance</span> to increase in effectiveness by 40%. Additionally, gain <span class=\"lol-stat\">25% critical strike chance</span>."
+    },
+    "mechanism": {
+      "zh": "拥有5秒的内置CD，暴击弹道(CriticalMissleTriggerRange)有550码的触发范围",
+      "en": "Has a 5 second internal cooldown. Critical strike projectiles have a 550 unit trigger range.(CriticalMissleTriggerRange)"
+    },
+    "icon": "118.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Critical Healing"
+  },
+  {
+    "id": "237",
+    "tier": "Silver",
+    "name": {
+      "zh": "质变：黄金阶",
+      "en": "Transmute: Gold"
+    },
+    "description": {
+      "zh": "获得1个随机黄金阶强化符文。",
+      "en": "Gain one random Gold augment, excluding the other two offerings in your current assortment."
+    },
+    "icon": "237.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Transmute: Gold"
+  },
+  {
+    "id": "2",
+    "tier": "Gold",
+    "name": {
+      "zh": "尖端发明家",
+      "en": "Apex Inventor"
+    },
+    "description": {
+      "zh": "获得<span class=\"lol-stat\">100装备急速</span>（相当于50%装备冷却缩减）。",
+      "en": "Grants <span class=\"lol-ability-haste\">100 item haste</span>, which is equivalent to 50% cooldown reduction for items."
+    },
+    "icon": "2.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Apex Inventor"
+  },
+  {
+    "id": "141",
+    "tier": "Gold",
+    "name": {
+      "zh": "全心为你",
+      "en": "All For You"
+    },
+    "description": {
+      "zh": "你对友军英雄施放的<span class=\"lol-healing\">治疗</span>和<span class=\"lol-shield\">护盾</span>效力提升30%。",
+      "en": "Your <span class=\"lol-healing\">heals</span> and <span class=\"lol-shield\">shields</span> on allied champions are increased in effectiveness by 30%."
+    },
+    "icon": "141.webp",
+    "source": "wiki_merged",
+    "wikiKey": "All For You"
+  },
+  {
+    "id": "50",
+    "tier": "Gold",
+    "name": {
+      "zh": "基石法师",
+      "en": "Keystone Conjurer"
+    },
+    "description": {
+      "zh": "获得<span class=\"lol-spell-name\">召唤：艾黎</span>和<span class=\"lol-spell-name\">奥术彗星</span>基石符文。",
+      "en": "Gain the Arcane Comet and Summon Aery keystone runes."
+    },
+    "icon": "50.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Keystone Conjurer"
+  },
+  {
+    "id": "19",
+    "tier": "Prismatic",
+    "name": {
+      "zh": "全凭身法",
+      "en": "Dashing"
+    },
+    "description": {
+      "zh": "带有冲刺、跳跃、闪烁或传送类效果的技能获得175技能急速。",
+      "en": "Abilities with <span class=\"lol-keyword\" title=\"dashes\">dash</span> or <span class=\"lol-keyword\" title=\"blinks\">blink</span> gain <span class=\"lol-stat\">175 ability haste</span>."
+    },
+    "icon": "19.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Dashing"
+  },
+  {
+    "id": "52",
+    "tier": "Gold",
+    "name": {
+      "zh": "闪电打击",
+      "en": "Lightning Strikes"
+    },
+    "description": {
+      "zh": "全来源加成的<span class=\"lol-speed\">额外攻击速度</span>提升20%。当你的<span class=\"lol-speed\">攻击速度</span>达到1.75或更高时，你的普通攻击附带40点<span class=\"lol-magic-damage\">额外魔法伤害</span>。",
+      "en": "Increase your <span class=\"lol-stat\">'bonus' attack speed</span> gained from all sources by <span class=\"lol-as\">20%</span>. While at <span class=\"lol-as\">1.75</span> attack speed or higher, your basic attacks deal <span class=\"lol-stat\">40 'bonus' magic damage</span> on-hit."
+    },
+    "icon": "52.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Lightning Strikes"
+  },
+  {
+    "id": "69",
+    "tier": "Silver",
+    "name": {
+      "zh": "退敌力场",
+      "en": "Repulsor"
+    },
+    "description": {
+      "zh": "在你跌下35%<span class=\"lol-scale-health\">最大生命值</span>时，将周围500码内的敌人全部<span class=\"lol-status\">击退</span>并<span class=\"lol-status\">减速</span>90%，持续1.5秒（25秒冷却，复活重置）。",
+      "en": "Upon dropping below <span class=\"lol-stat\">35% of your 'maximum' health</span>, you <span class=\"lol-status\" title=\"knock back\">airborne</span> all enemies within a 500 radius by 750 units and <span class=\"lol-status\">slow</span> them by 90% for 1.5 seconds (25 second cooldown, resets upon death)."
+    },
+    "icon": "69.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Repulsor"
+  },
+  {
+    "id": "113",
+    "tier": "Gold",
+    "name": {
+      "zh": "老练狙神",
+      "en": "Skilled Sniper"
+    },
+    "description": {
+      "zh": "在命中敌方英雄时，若自身与目标的距离至少为 700 个单位，则该基础技能的“当前”冷却时间将缩减其“总”冷却时间的 80%；对于持续伤害类技能，该缩减效果调整为 65%。",
+      "en": "Hitting an enemy champion with a basic ability while located at least  700 units away from them at the time of the hit reduces its 'current' cooldown by 80% of its 'total' cooldown, modified to 65% for damage over time abilities."
+    },
+    "icon": "113.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Skilled Sniper"
+  },
+  {
+    "id": "134",
+    "tier": "Prismatic",
+    "name": {
+      "zh": "亮出你的剑",
+      "en": "Draw Your Sword"
+    },
+    "description": {
+      "zh": "变成<span class=\"lol-status\">近战</span>英雄，攻击距离锁定为200。此外，获得<span class=\"lol-scale-a-d\">30%额外攻击力</span>、<span class=\"lol-speed\">25%额外攻击速度</span>、<span class=\"lol-scale-health\">30%额外生命值</span>、<span class=\"lol-speed\">25%额外移动速度</span>和20%生命偷取。仅限远程英雄选择。",
+      "en": "Become <span class=\"lol-keyword\">melee</span>, modifying your attack range to 200 units. Additionally, gain <span class=\"lol-stat\">30% 'bonus' attack damage</span>, <span class=\"lol-stat\">25% 'bonus' attack speed</span>, <span class=\"lol-stat\">30% 'bonus' health</span>, <span class=\"lol-stat\">25% 'bonus' movement speed</span>, and 20% life steal. These bonuses are increased by 0 to 30 for 11.<br><br>This augment is only available for <span class=\"lol-keyword\">ranged</span> champions."
+    },
+    "icon": "134.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Draw Your Sword"
+  },
+  {
+    "id": "70",
+    "tier": "Gold",
+    "name": {
+      "zh": "无休回复",
+      "en": "Restless Restoration"
+    },
+    "description": {
+      "zh": "你在移动时持续获得<span class=\"lol-healing\">治疗</span>（每移动10码回复20/100-120/100(+1/100%最大生命值)）。",
+      "en": "<span class=\"lol-healing\">Heal</span> for 20/100 to 120/100 <span class=\"lol-stat\">(+ 1/100% 'maximum' health)</span> per 10 units travelled."
+    },
+    "icon": "70.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Restless Restoration"
+  },
+  {
+    "id": "25",
+    "tier": "Silver",
+    "name": {
+      "zh": "俯冲轰炸",
+      "en": "Dive Bomber"
+    },
+    "description": {
+      "zh": "阵亡时，你会爆炸并对500码内的敌人造成<span class=\"lol-true-damage\">相当于其20%最大生命值的真实伤害</span>。",
+      "en": "Upon death, you explode to deal <span class=\"lol-stat\">true damage</span> equal to <span class=\"lol-stat\">20% of the target's 'maximum' health</span> to enemies within 500 units."
+    },
+    "icon": "25.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Dive Bomber"
+  },
+  {
+    "id": "7",
+    "tier": "Silver",
+    "name": {
+      "zh": "大力",
+      "en": "Blunt Force"
+    },
+    "description": {
+      "zh": "使你的<span class=\"lol-scale-a-d\">攻击力</span>提升20%。",
+      "en": "Increases <span class=\"lol-stat\">attack damage</span> by <span class=\"lol-scale-a-d\">20%</span>."
+    },
+    "icon": "7.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Blunt Force"
+  },
+  {
+    "id": "187",
+    "tier": "Silver",
+    "name": {
+      "zh": "闪光弹",
+      "en": "Flashbang"
+    },
+    "description": {
+      "zh": "使用【[[闪现]]】会在目的地点引发爆炸，对附近的敌人造成<span class=\"lol-magic-damage\">70-240(+70%额外AD)(+60%AP)</span>的<span class=\"lol-magic-damage\">魔法伤害</span>并使其<span class=\"lol-status\">减速</span>35%，持续1.25秒。此外，【闪现】的冷却时间会在你阵亡时重置。",
+      "en": "Using <b>[[Flash]]</b> creates an explosion around the blink location that deals <span class=\"lol-magic-damage\">70 to 240</span> <span class=\"lol-stat\">(+ 70% AD)</span> <span class=\"lol-stat\">(+ 60% AP)</span> <span class=\"lol-stat\">magic damage</span> to nearby enemies and <span class=\"lol-status\" title=\"slows\">slow</span> them by 35% for 1.25 seconds. Additionally, the cooldown of your <b>Flash</b> resets upon your death."
+    },
+    "icon": "187.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Flashbang"
+  },
+  {
+    "id": "74",
+    "tier": "Gold",
+    "name": {
+      "zh": "缩小射线",
+      "en": "Shrink Ray"
+    },
+    "description": {
+      "zh": "普通攻击使目标的伤害降低15%，持续3秒，可叠加。目标在持续期间的体型也会显著缩小。",
+      "en": "Basic attacks reduce the target's damage dealt by 15% for 3 seconds, refreshing with each hit. Their size is also reduced significantly for the duration."
+    },
+    "icon": "74.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Shrink Ray"
+  },
+  {
+    "id": "152",
+    "tier": "Gold",
+    "name": {
+      "zh": "任务：钢化你心",
+      "en": "Quest: Steel Your Heart"
+    },
+    "description": {
+      "zh": "使“[[心之钢]]”庞然吞噬所获得的“额外”生命值提升 200%。",
+      "en": "Increases the <span class=\"lol-stat\">'bonus' health</span> gained from [[Heartsteel]] Colossal Consumption by 200%."
+    },
+    "icon": "152.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Quest: Steel Your Heart"
+  },
+  {
+    "id": "32",
+    "tier": "Gold",
+    "name": {
+      "zh": "裁决使",
+      "en": "Executioner"
+    },
+    "description": {
+      "zh": "对生命值低于30%的敌人们多造成10%伤害。参与击杀英雄会重置你所有基础技能的冷却时间。",
+      "en": "Deal 10% increased damage to enemies below <span class=\"lol-stat\">30% of their 'maximum' health</span>. Scoring a champion <span class=\"lol-keyword\">takedown</span> resets the cooldown of all your basic abilities."
+    },
+    "icon": "32.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Executioner"
+  },
+  {
+    "id": "18",
+    "tier": "Prismatic",
+    "name": {
+      "zh": "巨像的勇气",
+      "en": "Courage of the Colossus"
+    },
+    "description": {
+      "zh": "对敌方英雄造成定身或缚地效果时，会获得一个持续 3 秒的护盾，可吸收 150 至 450（+ 5% 最大生命值）伤害（每次施法触发有 5 秒冷却时间）。多次触发此效果时护盾可以叠加，但不会刷新之前护盾的持续时间。",
+      "en": "<span class=\"lol-status\" title=\"Immobilizing\">immobilize</span> or <span class=\"lol-status\" title=\"grounding\">ground</span> an enemy champion grants a <span class=\"lol-shield\">shield</span> for 3 seconds that absorbs 150 to 450 <span class=\"lol-stat\">(+ 5% 'maximum' health)</span> damage (5 second cooldown per <span class=\"lol-keyword\">cast instance</span>). Shields can stack between multiple triggers of this effect, though not refreshing the duration of previous shields."
+    },
+    "icon": "18.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Courage of the Colossus"
+  },
+  {
+    "id": "46",
+    "tier": "Silver",
+    "name": {
+      "zh": "炼狱龙魂",
+      "en": "Infernal Soul"
+    },
+    "description": {
+      "zh": "你获得炼狱龙魂，在你用技能或攻击命中敌人时造成额外伤害。",
+      "en": "Grants the <b>Infernal Dragon Soul</b>, or a different <b>Dragon Soul</b> if one is already obtained."
+    },
+    "icon": "46.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Infernal Soul"
+  },
+  {
+    "id": "56",
+    "tier": "Silver",
+    "name": {
+      "zh": "由心及物",
+      "en": "Mind to Matter"
+    },
+    "description": {
+      "zh": "使你的<span class=\"lol-scale-health\">最大生命值</span>提升，数额相当于你一半的<span class=\"lol-scale-mana\">法力值</span>。",
+      "en": "Grants <span class=\"lol-stat\">'bonus' health</span> equal to <span class=\"lol-stat\">50% 'maximum' mana</span>."
+    },
+    "icon": "56.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Mind to Matter"
+  },
+  {
+    "id": "211",
+    "tier": "Gold",
+    "name": {
+      "zh": "杀戮时间到了",
+      "en": "It's Killing Time"
+    },
+    "description": {
+      "zh": "在施放终极技能后，你会为所有敌方英雄施加一个死亡标记（8秒冷却）。标记会存储带标记期间你对其造成伤害的40%，并在5秒后引爆，造成等同于存储伤害值的<span class=\"lol-true-damage\">真实伤害</span>。",
+      "en": "Upon casting your ultimate ability, you apply Zed to all enemy champions (8 second cooldown). The mark stores 40% of all Damage calculated before modifiers damage you deal to the affected target, detonating after 5 seconds to deal <span class=\"lol-stat\">true damage</span> equal to the damage stored against them."
+    },
+    "icon": "211.webp",
+    "source": "wiki_merged",
+    "wikiKey": "It's Killing Time"
+  },
+  {
+    "id": "64",
+    "tier": "Gold",
+    "name": {
+      "zh": "坚韧",
+      "en": "Perseverance"
+    },
+    "description": {
+      "zh": "获得1000%基础<span class=\"lol-healing\">生命回复</span>。当你的<span class=\"lol-scale-health\">生命值</span>低于25%时，回复量提升至2000%。",
+      "en": "Grants <span class=\"lol-stat\">1000% 'base' health regeneration</span>, increased to <span class=\"lol-scale-health\">2000%</span> while below <span class=\"lol-stat\">25% 'maximum' health</span>."
+    },
+    "icon": "64.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Perseverance"
+  },
+  {
+    "id": "48",
+    "tier": "Prismatic",
+    "name": {
+      "zh": "珠光护手",
+      "en": "Jeweled Gauntlet"
+    },
+    "description": {
+      "zh": "你的技能可以造成<span class=\"lol-keyword\">暴击</span>，造成145%（+额外暴击伤害）的伤害。此外，获得<span class=\"lol-keyword\">25%（+每100AP提升4.5%）</span>的<span class=\"lol-keyword\">暴击几率</span>。",
+      "en": "Your abilities can now <span class=\"lol-keyword\" title=\"critically strike\">critical strike</span> for (145% + <span class=\"lol-stat\">'bonus' critical damage</span>) damage. Additionally, gain <span class=\"lol-crit\">25%</span> <span class=\"lol-stat\">(+ 4.5% per 100 AP)</span> <span class=\"lol-stat\">critical strike chance</span>.<br><br>If both Jeweled Gauntlet and  Vulnerability are equipped, only rolls the critical strike chance of the augment that has the higher critical damage (or either if equal)."
+    },
+    "mechanism": {
+      "zh": "目前可与灵魂虹吸产生联动 BUG，回复大量生命值",
+      "en": "BUG with Soul Siphon"
+    },
+    "icon": "48.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Jeweled Gauntlet"
+  },
+  {
+    "id": "SelfDestruct",
+    "tier": "Silver",
+    "name": {
+      "zh": "自毁",
+      "en": "Earthquake"
+    },
+    "description": {
+      "zh": "自动在自己身上安装一颗炸弹，5 秒后引爆，对 350 码范围内的敌人造成相当于目标最大生命值 20%的真实伤害，并将其击飞 0.75 秒（25 秒冷却时间）。",
+      "en": "Automatically attach a bomb to yourself that detonates after 5 seconds, creating an explosion that deals true damage equal to 20% of the target's maximum health to enemies within 350 units and knocks them up for 0.75 seconds (25 second cooldown)."
+    },
+    "icon": "Self_Destruct.webp",
+    "iconUrl": "Self_Destruct.webp",
+    "source": "cddragon_only"
+  },
+  {
+    "id": "BladeWaltz",
+    "tier": "Silver",
+    "name": {
+      "zh": "闪闪现现",
+      "en": "Flash 2"
+    },
+    "description": {
+      "zh": "将未被闪现占用的召唤师技能槽位替换为[[闪现]]。此外，获得 70 召唤师技能急速。装备此强化后，你的两个召唤师技能槽位都将变为闪现，且在使用其中任何一个时，它们不会共享冷却时间。",
+      "en": "Replaces the summoner spell in the slot not occupied by <b>Flash</b> with <b>[[Flash]]</b>. Additionally, gain 70 summoner spell haste.<br><br>You have <b>Flash</b> in both of your summoner spell slots while equipped with this augment, and they do not share cooldowns when either of them are used."
+    },
+    "icon": "Flash_2.webp",
+    "iconUrl": "Flash_2.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Flash 2"
+  },
+  {
+    "id": "Adamant",
+    "tier": "Silver",
+    "name": {
+      "zh": "坚若磐石",
+      "en": "Adamant"
+    },
+    "description": {
+      "zh": " 定身或缚地敌方英雄会提供 2 – 10（基于等级）额外护甲和额外魔法抗性，持续 10 秒，最多可叠加 10 层，总计提供 20 – 100（基于等级）额外双抗，后续触发会刷新持续时间。",
+      "en": "<span class=\"lol-status\" title=\"Immobilizing\">immobilize</span> or <span class=\"lol-status\" title=\"grounding\">ground</span> an enemy champion grants 2 to 10 <span class=\"lol-stat\">'bonus' armor</span> and <span class=\"lol-stat\">'bonus' magic resistance</span> for 10 seconds, stacking up to 10 times for a total of 2*10 to 10*10 'bonus' resistances, and refreshing on subsequent triggers."
+    },
+    "icon": "Adamant.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Adamant"
+  },
+  {
+    "id": "Cheating",
+    "tier": "Gold",
+    "name": {
+      "zh": "作弊：我能回城",
+      "en": "Cheating"
+    },
+    "description": {
+      "zh": "你的回城变为强化回城。此外，离开商店后仍可购买物品，且泉水会为你提供回复。",
+      "en": "Your <b>Recall</b> is now functional and is upgraded to <b>Empowered Recall</b>. Additionally, you no longer lose the ability to purchase items from the shop  after exiting the shop area, and the fountain will now provide healing and resource restoration for you."
+    },
+    "icon": "Cheating.webp",
+    "source": "wiki_merged",
+    "wikiKey": "Cheating"
+  },
+  {
+    "id": "Escape Plan",
+    "tier": "Silver",
+    "name": {
+      "zh": "逃跑计划",
+      "en": "Escape Plan"
+    },
+    "description": {
+      "zh": "当你的生命值跌至 35% 最大生命值以下时，获得一个相当于 65% 最大生命值的护盾，增加 150% 额外移动速度，并缩小体型（75 秒冷却时间）。这些效果都会在 5.5 秒内衰减。",
+      "en": "Upon dropping below <span class=\"lol-stat\">35% of your 'maximum' health</span>, gain a <span class=\"lol-shield\">shield</span> for <span class=\"lol-stat\">65% of your 'maximum' health</span>, <span class=\"lol-stat\">150% 'bonus' movement speed</span>, and reduced size (75 second cooldown). These effects all decay over 5.5 seconds."
+    },
+    "icon": "Escape_Plan.webp",
+    "wikiNote": "这是从 Wiki 发现但本地数据库缺失的条目",
+    "source": "wiki_merged",
+    "wikiKey": "Escape Plan"
+  },
+  {
+    "id": "Hat on a Hat",
+    "tier": "Silver",
+    "name": {
+      "zh": "帽上加帽",
+      "en": "Hat on a Hat"
+    },
+    "description": {
+      "zh": "每拥有一件头部装备或帽子类物品，获得 15 法术强度和 8 额外魔法抗性；对于通过帽子饮品获得的帽子，该加成降低至 8 法术强度和 4 额外魔法抗性。",
+      "en": "Gain <span class=\"lol-stat\">15 ability power</span> and <span class=\"lol-stat\">8 'bonus' magic resistance</span> for each headwear item or hat you have in your inventory, reduced to <span class=\"lol-stat\">8 ability power</span> and <span class=\"lol-stat\">4 'bonus' magic resistance</span> for hats obtained from <b>Cappa Juice</b>."
+    },
+    "mechanism": {
+      "zh": "以下物品将被视作头饰/帽子类装备，适用于「帽上加帽」强化符文：<br><br>[[深渊面具]]，[[放血者的诅咒]]，[[星界驱驰]]，[[夜之锋刃]]，[[海克斯注力刚壁]]，[[末日寒冬]]，[[幽魂面具]]，[[璀璨回响]]，[[狂妄]]，[[千变者贾修]]，[[骑士之誓]]，[[兰德里的苦楚]]，[[灭世者的死亡之帽]]，[[裂隙制造者]]，[[舒瑞娅的战歌]]，[[幽魂斗篷]]，[[沃格勒特的巫师帽]], [[耳语头环]], [[歌之权冠]]",
+      "en": "The following items will count as headwear/hats items for the Hat on a Hat augment: <br><br>[[Abyssal Mask]], [[Bloodletter's Curse]], [[Cosmic Drive]], [[Edge of Night]], [[Experimental Hexplate]], [[Fimbulwinter]], [[Haunting Guise]], [[Hollow Radiance]], [[Hubris]], [[Jak'Sho, The Protean]], [[Knight's Vow]], [[Liandry's Torment]], [[Rabadon's Deathcap]], [[Riftmaker]], [[Shurelya's Battlesong]], [[Spectre's Cowl]], [[Wooglet's Witchcap]], [[Whispering Circlet]], [[Diadem of Songs]]"
+    },
+    "icon": "Hat_on_a_Hat.webp",
+    "wikiNote": "这是从 Wiki 发现但本地数据库缺失的条目",
+    "source": "wiki_merged",
+    "wikiKey": "Hat on a Hat"
+  },
+  {
+    "id": "Mighty Shield",
+    "tier": "Silver",
+    "name": {
+      "zh": "强力护盾",
+      "en": "Mighty Shield"
+    },
+    "description": {
+      "zh": "获得护盾时，获得 40 – 100（基于等级） An icon representing the keyword Adaptive force 适应之力，持续 3 秒（5 秒冷却时间）。",
+      "en": "Gain 40 to 100 <span class=\"lol-keyword\">adaptive force</span> for 3 seconds upon gaining a <span class=\"lol-shield\">shield</span> (5 second cooldown)."
+    },
+    "icon": "Mighty_Shield.webp",
+    "wikiNote": "这是从 Wiki 发现但本地数据库缺失的条目",
+    "source": "wiki_merged",
+    "wikiKey": "Mighty Shield"
+  },
+  {
+    "id": "Poltergeist",
+    "tier": "Silver",
+    "name": {
+      "zh": "吵闹鬼",
+      "en": "Poltergeist"
+    },
+    "description": {
+      "zh": "将未被[[闪现]]占用的召唤师技能槽位替换为“吵闹鬼”。吵闹鬼：对自己施放[[屏障]]和[[幽灵疾步]]，持续时间均为 5 秒。前者提供 110 – 440（基于等级）的护盾，后者提供 30% 额外移动速度。",
+      "en": "Replaces the summoner spell in the slot not occupied by <b>[[Flash]]</b> with <b>Poltergeist</b>.<br><br> Poltergeist: Casts both <b>[[Shield]]</b> and <b>[[Ghost Walk]]</b> on yourself for 5 seconds each. The <b>Shield</b> provides <span class=\"lol-stat\">110 to 440 'bonus' armor</span>, and the <b>Ghost Walk</b> provides <span class=\"lol-stat\">30% 'bonus' movement speed</span>."
+    },
+    "icon": "Poltergeist.webp",
+    "wikiNote": "这是从 Wiki 发现但本地数据库缺失的条目",
+    "source": "wiki_merged",
+    "wikiKey": "Poltergeist"
+  },
+  {
+    "id": "ReEnergize",
+    "tier": "Silver",
+    "name": {
+      "zh": "活力再生",
+      "en": "ReEnergize"
+    },
+    "description": {
+      "zh": "你对未被上一次能量攻击命中的目标发起的盈能攻击，在命中时不会消耗任何盈能层数。此外，当处于完全盈能状态时，你的下一次普攻在命中时会造成相当于目标当前生命值 10% 的额外魔法伤害。",
+      "en": "Your <span class=\"lol-keyword\">Energized</span> attacks against targets not hit by your previous Energized attack do not consume any Energize stacks on-hit. Additionally, when fully <span class=\"lol-keyword\">Energized</span>, your next basic attack deals <span class=\"lol-stat\">'bonus' magic damage</span> on-hit equal to <span class=\"lol-stat\">10% of the target's 'current' health</span>."
+    },
+    "icon": "ReEnergize.webp",
+    "wikiNote": "这是从 Wiki 发现但本地数据库缺失的条目",
+    "source": "wiki_merged",
+    "wikiKey": "ReEnergize"
+  },
+  {
+    "id": "Swift and Safe",
+    "tier": "Silver",
+    "name": {
+      "zh": "快中求稳",
+      "en": "Swift and Safe"
+    },
+    "description": {
+      "zh": "<span class=\"lol-text-gold-1\">触发条件：</span>在进行<b>冲刺</b>或<b>闪烁</b>后<br><br><span class=\"lol-text-gold-2\">效果：</span>获得一个持续 2 秒的<shield>护盾</shield><shield><br><br>护盾值：</shield><attention>65 – 290（基于等级）</attention> <attention>(+ 65% 攻击力)</attention> <attention>(+ 26% 法术强度)</attention><span class=\"lol-text-grey-2\">冷却时间：</span>5秒",
+      "en": "After <span class=\"lol-keyword\" title=\"dashing\">dash</span> or <span class=\"lol-keyword\" title=\"blinking\">blink</span>, gain a <span class=\"lol-shield\">shield</span> that lasts for 2 seconds and absorbs 65 to 290 <span class=\"lol-stat\">(+ 65% AD)</span> <span class=\"lol-stat\">(+ 26% AP)</span> damage (5 second cooldown)."
+    },
+    "icon": "Swift_and_Safe.webp",
+    "wikiNote": "这是从 Wiki 发现但本地数据库缺失的条目",
+    "source": "wiki_merged",
+    "wikiKey": "Swift and Safe"
+  },
+  {
+    "id": "Upgrade Collector",
+    "tier": "Silver",
+    "name": {
+      "zh": "升级：收集者",
+      "en": "Upgrade Collector"
+    },
+    "description": {
+      "zh": "升级[[收集者]]，强化“死神”效果，使其处决阈值在每次击杀敌方英雄时增加 0.5%，上限为目标最大生命值的 15%；同时强化“收税”效果，击杀时额外产生 25 金币（总计50）。此外，获得 250 金币。",
+      "en": "Upgrades <b>[[The Collector]]</b>, empowering Death to have its execution threshold increased by 0.5% each time you kill an enemy champion, capped at a threshold of <span class=\"lol-stat\">15% of the target's 'maximum' health</span>, and Taxes to generate a further <span class=\"lol-gold\">25G</span> (total <span class=\"lol-gold\">50G</span>) from kills. Additionally, gain <span class=\"lol-gold\">250G</span>."
+    },
+    "icon": "Upgrade_Collector.webp",
+    "wikiNote": "这是从 Wiki 发现但本地数据库缺失的条目",
+    "source": "wiki_merged",
+    "wikiKey": "Upgrade Collector"
+  },
+  {
+    "id": "Upgrade Immolate",
+    "tier": "Silver",
+    "name": {
+      "zh": "升级：献祭",
+      "en": "Upgrade Immolate"
+    },
+    "description": {
+      "zh": "升级[[斑比的熔渣]]、 [[璀璨回响]]和[[日炎圣盾]]，强化“献祭”效果：每层献祭伤害会根据受影响的目标数量，使你额外获得 12 金币。",
+      "en": "Upgrades <b>[[Bami's Cinder]]</b>, <b>[[Hollow Radiance]]</b>, and <b>[[Sunfire Aegis]]</b>, empowering Immolate to additionally grant you <span class=\"lol-gold\">12G</span> per tick for each target afflicted by its effect."
+    },
+    "icon": "Upgrade_Immolate.webp",
+    "wikiNote": "这是从 Wiki 发现但本地数据库缺失的条目",
+    "source": "wiki_merged",
+    "wikiKey": "Upgrade Immolate"
+  },
+  {
+    "id": "Upgrade Zhonya's",
+    "tier": "Silver",
+    "name": {
+      "zh": "升级：中娅",
+      "en": "Upgrade Zhonya's"
+    },
+    "description": {
+      "zh": "升级[[探索者的护臂]]、 [[沃格勒特的巫师帽]]和[[中娅沙漏]]，强化凝滞效果，使你在其激活期间可以移动。此外，中娅沙漏的凝滞冷却时间缩短至 45 秒。",
+      "en": "Upgrades <b>[[Seeker's Armguard]]</b>, <b>[[Wooglet's Witchcap]]</b>, and <b>[[Zhonya's Hourglass]]</b>, empowering Stasis to allow you to move during its active effect. Additionally, the cooldown of Zhonya's Hourglass Stasis is reduced to 45 seconds."
+    },
+    "icon": "Upgrade_Zhonya's.webp",
+    "wikiNote": "这是从 Wiki 发现但本地数据库缺失的条目",
+    "source": "wiki_merged",
+    "wikiKey": "Upgrade Zhonya's"
+  },
+  {
+    "id": "Veil of Warding",
+    "tier": "Silver",
+    "name": {
+      "zh": "防护面纱",
+      "en": "Veil of Warding"
+    },
+    "description": {
+      "zh": "获得一个可抵挡下一次敌方技能的法术护盾（30 秒冷却时间，受到英雄伤害不会重置计时）。",
+      "en": "Grants a <span class=\"lol-shield\">spell shield</span> that blocks the next hostile ability (30 second cooldown, timer does 'not' restart from champion damage taken)."
+    },
+    "icon": "Veil_of_Warding.webp",
+    "wikiNote": "这是从 Wiki 发现但本地数据库缺失的条目",
+    "source": "wiki_merged",
+    "wikiKey": "Veil of Warding"
+  },
+  {
+    "id": "Wind Beneath Blade",
+    "tier": "Silver",
+    "name": {
+      "zh": "刃下生风",
+      "en": "Wind Beneath Blade"
+    },
+    "description": {
+      "zh": "每拥有 1 点基础穿甲或固定法术穿透，获得 1.5 额外移动速度；每拥有 10% 护甲穿透或法术穿透，获得 5 额外移动速度。",
+      "en": "Gain <span class=\"lol-stat\">1.5 'bonus' movement speed</span> per 1 <span class=\"lol-stat\">Lethality</span> or <span class=\"lol-stat\">flat magic penetration</span>, and <span class=\"lol-stat\">5 'bonus' movement speed</span> per 10% <span class=\"lol-stat\">armor penetration</span> or <span class=\"lol-stat\">magic penetration</span>."
+    },
+    "icon": "Wind_Beneath_Blade.webp",
+    "wikiNote": "这是从 Wiki 发现但本地数据库缺失的条目",
+    "source": "wiki_merged",
+    "wikiKey": "Wind Beneath Blade"
+  },
+  {
+    "id": "Critical Rhythm",
+    "tier": "Gold",
+    "name": {
+      "zh": "暴击律动",
+      "en": "Critical Rhythm"
+    },
+    "description": {
+      "zh": "你的暴击会为你提供 6%额外攻击速度，持续 6 秒，最高可叠加 10 层，总计 60%。此外，获得 25%暴击几率。",
+      "en": "Your <span class=\"lol-keyword\">critical strikes</span> grant you <span class=\"lol-stat\">6% 'bonus' attack speed</span> for 6 seconds, stacking up to 10 times for a total of <span class=\"lol-attack-speed\">60%</span>. Additionally, gain <span class=\"lol-stat\">25% critical strike chance</span>."
+    },
+    "icon": "Critical_Rhythm.webp",
+    "wikiNote": "这是从 Wiki 发现但本地数据库缺失的条目",
+    "source": "wiki_merged",
+    "wikiKey": "Critical Rhythm"
+  },
+  {
+    "id": "Get Excited",
+    "tier": "Gold",
+    "name": {
+      "zh": "罪恶快感",
+      "en": "Get Excited"
+    },
+    "description": {
+      "zh": "参与击杀英雄会使你获得 100% 额外移动速度和 15% 总攻击速度，持续 4 秒。",
+      "en": "Scoring a champion <span class=\"lol-keyword\">takedown</span> grants you <span class=\"lol-stat\">100% 'bonus' movement speed</span> and <span class=\"lol-stat\">15% 'total' attack speed</span> for 4 seconds."
+    },
+    "icon": "Get_Excited.webp",
+    "wikiNote": "这是从 Wiki 发现但本地数据库缺失的条目",
+    "source": "wiki_merged",
+    "wikiKey": "Get Excited"
+  },
+  {
+    "id": "Nightstalking",
+    "tier": "Gold",
+    "name": {
+      "zh": "夜狩",
+      "en": "Nightstalking"
+    },
+    "description": {
+      "zh": "在对敌方英雄造成伤害后的 3 秒内参与将其击杀，会使你获得持续 1.5 秒的隐身效果。攻击或施放技能会立即结束隐身状态。",
+      "en": "Scoring a <span class=\"lol-keyword\">takedown</span> against an enemy champion within 3 seconds of damaging them renders you <span class=\"lol-keyword\">invisible</span> for 1.5 seconds. Attacking or casting abilites ends the stealth immediately."
+    },
+    "icon": "Nightstalking.webp",
+    "wikiNote": "这是从 Wiki 发现但本地数据库缺失的条目",
+    "source": "wiki_merged",
+    "wikiKey": "Nightstalking"
+  },
+  {
+    "id": "Snowball Upgrade",
+    "tier": "Gold",
+    "name": {
+      "zh": "升级：雪球",
+      "en": "Snowball Upgrade"
+    },
+    "description": {
+      "zh": "你的雪球[[标记]]获得强化，在击中目标的位置降下持续 2 秒的暴风雪，提供该区域的视野，并在持续时间内对其中的敌人造成 200 (+ 200% 额外攻击力)(+ 120% 法术强度) 魔法伤害，并使其减速 50% (+ 每 100 法术强度 6%)。此外，你的雪球[[标记]]冷却时间缩减，数值等同于 100 技能急速。",
+      "en": "Your <b>[[Mark]]</b> is empowered to hail a snowstorm at the location where the target was hit for 2 seconds, granting <span class=\"lol-keyword\">sight</span> of the area and dealing <span class=\"lol-magic-damage\">200</span> <span class=\"lol-stat\">(+ 200% 'bonus' AD)</span> <span class=\"lol-stat\">(+ 120% AP)</span> <span class=\"lol-stat\">magic damage</span> to enemies within over the duration, as well as <span class=\"lol-status\" title=\"slowing\">slow</span> them by 50% <span class=\"lol-stat\">(+ 6% per 100 AP)</span>. Additionally, your [[Mark]] cooldown is reduced equivalent to 100 ability haste."
+    },
+    "icon": "Snowball_Upgrade.webp",
+    "wikiNote": "这是从 Wiki 发现但本地数据库缺失的条目",
+    "source": "wiki_merged",
+    "wikiKey": "Snowball Upgrade"
+  },
+  {
+    "id": "Spiritual Purification",
+    "tier": "Gold",
+    "name": {
+      "zh": "心灵净化",
+      "en": "Spiritual Purification"
+    },
+    "description": {
+      "zh": "参与击杀英雄时，被击杀英雄周围 500 码半径的区域会发生爆炸，对其中的敌人造成适应性伤害（相当于其当前生命值的 15%），并留下一个持续 1.5 秒的区域，使其中的敌人受到 60% 的减速效果。",
+      "en": "Scoring a champion <span class=\"lol-keyword\">takedown</span> causes the area around the slain champion to explode in a 500 unit radius, dealing <span class=\"lol-keyword\">adaptive damage</span> to enemies within equal to <span class=\"lol-stat\">15% of their 'current' health</span> and leaving behind a zone for 1.5 seconds that <span class=\"lol-status\" title=\"slows\">slow</span> enemies within by 60%."
+    },
+    "icon": "Spiritual_Purification.webp",
+    "wikiNote": "这是从 Wiki 发现但本地数据库缺失的条目",
+    "source": "wiki_merged",
+    "wikiKey": "Spiritual Purification"
+  },
+  {
+    "id": "Upgrade Hubris",
+    "tier": "Gold",
+    "name": {
+      "zh": "升级：狂妄",
+      "en": "Upgrade Hubris"
+    },
+    "description": {
+      "zh": "升级[[狂妄]]，强化“名望”效果：触发时为你提供2.5%（+ 每层 0.5%）最大生命值的治疗，并在持续时间内提供 10（+ 每层 5）额外移动速度。此外，获得 250 金币。",
+      "en": "Upgrades <b>[[Hubris]]</b>, empowering Eminence to <span class=\"lol-healing\">heal</span> you for <span class=\"lol-scale-health\">2.5%</span> (+ 0.5% per stack) <span class=\"lol-stat\">'maximum' health</span> upon being triggered and grant you <span class=\"lol-ms\">10</span> (+ 5 per stack) <span class=\"lol-stat\">'bonus' movement speed</span> for its duration. Additionally, gain <span class=\"lol-gold\">250G</span>."
+    },
+    "icon": "Upgrade_Hubris.webp",
+    "wikiNote": "这是从 Wiki 发现但本地数据库缺失的条目",
+    "source": "wiki_merged",
+    "wikiKey": "Upgrade Hubris"
+  },
+  {
+    "id": "Upgrade Infinity Edge",
+    "tier": "Gold",
+    "name": {
+      "zh": "升级：无尽之刃",
+      "en": "Upgrade Infinity Edge"
+    },
+    "description": {
+      "zh": "将[[无尽之刃]]升级，使其获得[[神圣之剑]]的“剔骨”效果。此外，获得 500 金币和 25% 暴击率。剔骨：获得随机数量的额外暴击伤害，最高可达你暴击率的 50%，该数值每 0.25 秒变动一次。",
+      "en": "Upgrades <b>[[Infinity Edge]]</b>, empowering it to gain [[Sword of the Divine]] Excoriate. Additionally, gain <span class=\"lol-gold\">500G</span> and <span class=\"lol-stat\">25% critical strike chance</span>.<br><br>Excoriate: Gain a random amount of <span class=\"lol-critical-damage\">'bonus' critical strike damage</span> that scales up to <span class=\"lol-stat\">50% of your critical strike chance</span>, with the value of this amount changing every 0.25 seconds."
+    },
+    "icon": "Upgrade_Infinity_Edge.webp",
+    "wikiNote": "这是从 Wiki 发现但本地数据库缺失的条目",
+    "source": "wiki_merged",
+    "wikiKey": "Upgrade Infinity Edge"
+  },
+  {
+    "id": "Upgrade Sheen",
+    "tier": "Gold",
+    "name": {
+      "zh": "升级：耀光",
+      "en": "Upgrade Sheen"
+    },
+    "description": {
+      "zh": "升级所有咒刃物品，强化其被动效果，使其额外造成等同于目标最大生命值 4% 的物理伤害，并为你提供等同于你最大生命值 3.5% 的治疗。此外，获得250金币。",
+      "en": "Upgrades all <span class=\"lol-keyword\">Spellblade</span> items, empowering the passive effect to deal additional <span class=\"lol-stat\">'bonus' physical damage</span> equal to <span class=\"lol-stat\">4% of the target's 'maximum' health</span> and <span class=\"lol-healing\">heal</span> you for <span class=\"lol-stat\">3.5% of your 'maximum' health</span>. Additionally, gain <span class=\"lol-gold\">250G</span>."
+    },
+    "icon": "Upgrade_Sheen.webp",
+    "wikiNote": "这是从 Wiki 发现但本地数据库缺失的条目",
+    "source": "wiki_merged",
+    "wikiKey": "Upgrade Sheen"
+  },
+  {
+    "id": "Vampirism",
+    "tier": "Gold",
+    "name": {
+      "zh": "吸血习性",
+      "en": "Vampirism"
+    },
+    "description": {
+      "zh": "你不再能受到队友的治疗，且你的生命回复被设为 0。获得 25% 全能吸血。",
+      "en": "You can no longer be <span class=\"lol-healing\" title=\"healed\">heal</span> by allies and your <span class=\"lol-stat\">health regeneration</span> is set to <span class=\"lol-hp\">0</span>. Gain <span class=\"lol-stat\">25% omnivamp</span>."
+    },
+    "icon": "Vampirism.webp",
+    "wikiNote": "这是从 Wiki 发现但本地数据库缺失的条目",
+    "source": "wiki_merged",
+    "wikiKey": "Vampirism"
+  },
+  {
+    "id": "I'm a Baby Kitty Where is Mama",
+    "tier": "Prismatic",
+    "name": {
+      "zh": "小猫咪找妈妈",
+      "en": "I'm a Baby Kitty Where is Mama"
+    },
+    "description": {
+      "zh": "在 2 秒后与距离你最近的友方英雄绑定，在你与他们之间形成一条连线（400 半径）。当连线存在时，你获得 75% 额外移动速度以及 50% 治疗和护盾强度。此外，在 1500 码范围内面朝绑定的盟友时，获得 37.5% 额外移动速度。当你或绑定的盟友死亡时，连线将会断开，允许你重新形成新的连线。",
+      "en": "Bind with the nearest allied champion to you after 2 seconds, forming a <span class=\"lol-keyword\">tether</span> between you and them (400 radius). While the tether persists, you gain <span class=\"lol-stat\">75% 'bonus' movement speed</span> and <span class=\"lol-stat\">50% heal and shield power</span>. Additionally, gain <span class=\"lol-stat\">37.5% 'bonus' movement speed</span> while facing your bound ally within 1500 units.<br><br>The tether will break when you or your bound ally dies, allowing you to form a new tether."
+    },
+    "icon": "I'm_a_Baby_Kitty_Where_is_Mama.webp",
+    "wikiNote": "这是从 Wiki 发现但本地数据库缺失的条目",
+    "source": "wiki_merged",
+    "wikiKey": "I'm a Baby Kitty Where is Mama"
+  },
+  {
+    "id": "Biggest Snowball Ever",
+    "tier": "Prismatic",
+    "name": {
+      "zh": "史上最大雪球",
+      "en": "Biggest Snowball Ever"
+    },
+    "description": {
+      "zh": "将你的<b>[[标记]]</b>升级为一个巨大的雪球，提升其半径并使其能够穿透非英雄单位。雪球在命中目标时还会爆炸，对附近所有敌人造成 <span class=\"lol-magic-damage\">200 - 350</span> (基于等级) <span class=\"lol-stat\">(+ 100% 额外攻击力)</span> <span class=\"lol-stat\">(+ 60% 法术强度)</span> 的<span class=\"lol-magic-damage\">魔法伤害</span>，将其<span class=\"lol-status\">击飞</span> 0.75 秒，并<span class=\"lol-status\">减速</span> 20%，持续 2 秒。此外，你的<b>[[标记]]</b>获得 100 技能急速。<br/><br/>如果未装备<b>[[标记]]</b>，则未被<b>[[闪现]]</b>占用的召唤师技能槽位将被替换为<b>标记</b>。<br/>命中的非英雄单位将被<span class=\"lol-status\">晕眩</span> 1.25 秒。",
+      "en": "Upgrades your <b>[[Mark]]</b> into a massive snowball, increasing its radius and allowing it to pass through non-champions. The snowball explodes upon impact, dealing <span class=\"lol-magic-damage\">200 - 350</span> (based on level) <span class=\"lol-stat\">(+ 100% bonus AD)</span> <span class=\"lol-stat\">(+ 60% AP)</span> <span class=\"lol-magic-damage\">magic damage</span> to all nearby enemies, knocking them <span class=\"lol-status\">Airborne</span> for 0.75 seconds, and <span class=\"lol-status\">Slowing</span> them by 20% for 2 seconds. Additionally, your <b>[[Mark]]</b> gains 100 Ability Haste.<br/><br/>If <b>[[Mark]]</b> is not equipped, the summoner spell in the slot not occupied by <b>[[Flash]]</b> is replaced with <b>Mark</b>.<br/>Non-champions hit are <span class=\"lol-status\">Stunned</span> for 1.25 seconds."
+    },
+    "icon": "Biggest_Snowball_Ever.webp",
+    "wikiNote": "这是从 Wiki 发现但本地数据库缺失的条目",
+    "source": "wiki_merged",
+    "wikiKey": "Biggest Snowball Ever"
+  },
+  {
+    "id": "Cruelty",
+    "tier": "Prismatic",
+    "name": {
+      "zh": "残忍",
+      "en": "Cruelty"
+    },
+    "description": {
+      "zh": "定身或缚地一名敌方英雄时，会在其上方召唤一颗彗星，彗星会在 1 秒后落在其当前位置，对区域内的敌人造成 50 – 150（基于等级）（+ 40% 法术强度）（+ 4% 最大生命值）魔法伤害（每个目标每次施法有 6 秒冷却时间）。",
+      "en": "<span class=\"lol-status\" title=\"Immobilizing\">Immobilize</span> or <span class=\"lol-status\" title=\"grounding\">ground</span> an enemy champion summons a comet above them that lands at their current location after 1 second, dealing <span class=\"lol-magic-damage\">50 to 150</span> <span class=\"lol-stat\">(+ 40% AP)</span> <span class=\"lol-stat\">(+ 4% of your 'maximum' health)</span> <span class=\"lol-stat\">magic damage</span> to enemies within the area (6 second cooldown per target per <span class=\"lol-keyword\">cast instance</span>)."
+    },
+    "icon": "Cruelty.webp",
+    "wikiNote": "这是从 Wiki 发现但本地数据库缺失的条目",
+    "source": "wiki_merged",
+    "wikiKey": "Cruelty"
+  },
+  {
+    "id": "Empyrean Promise",
+    "tier": "Prismatic",
+    "name": {
+      "zh": "至高天诺言",
+      "en": "Empyrean Promise"
+    },
+    "description": {
+      "zh": "将未被<b>[[闪现]]</b>占据的召唤师技能替换为<b>至高天诺言</b>的<b>警觉</b>主动技能。此外，获得 <span class=\"lol-stat\">15% 治疗和护盾强度</span>。<br/><br/><b>主动 - 警觉：</b><span class=\"lol-keyword\">冲向</span>目标友方英雄，抵达时为你和该英雄提供一层可吸收 <span class=\"lol-shield\">100 - 250</span> (基于等级) <span class=\"lol-stat\">(+ 100% 法术强度)</span> <span class=\"lol-stat\">(+ 10% 额外生命值)</span> 伤害的<span class=\"lol-shield\">护盾</span>，持续 3 秒（34 秒冷却时间；2000 距离）。",
+      "en": "Replaces the summoner spell in the slot not occupied by <b>[[Flash]]</b> with <b>Empyrean Promise</b> <b>Vigilance</b> active. Additionally, gain <span class=\"lol-stat\">15% heal and shield power</span>.<br/><br/><b>Active - Vigilance:</b> <span class=\"lol-keyword\">Dash</span> to the target allied champion and upon arrival grant yourself and them a <span class=\"lol-shield\">shield</span> that absorbs <span class=\"lol-shield\">100 - 250</span> (based on level) <span class=\"lol-stat\">(+ 100% AP)</span> <span class=\"lol-stat\">(+ 10% bonus health)</span> damage for 3 seconds (34 second cooldown; 2000 range)."
+    },
+    "mechanism": {
+      "zh": "启动延迟为 0.25 秒，移动速度为 4000",
+      "en": "Dash cast time is 0.25 seconds and movement speed is 4000."
+    },
+    "icon": "Empyrean_Promise.webp",
+    "wikiNote": "这是从 Wiki 发现但本地数据库缺失的条目",
+    "source": "wiki_merged",
+    "wikiKey": "Empyrean Promise"
+  },
+  {
+    "id": "Final Form",
+    "tier": "Prismatic",
+    "name": {
+      "zh": "最终形态",
+      "en": "Final Form"
+    },
+    "description": {
+      "zh": "施放终极技能会使你获得 10 秒的强化状态，期间获得相当于 50%最大生命值的护盾、20%全能吸血以及 30%额外移动速度（20 秒冷却时间）。",
+      "en": "Casting your ultimate ability empowers you for 10 seconds, causing you to gain a <span class=\"lol-shield\">shield</span> for <span class=\"lol-stat\">50% of your 'maximum' health</span>, <span class=\"lol-stat\">20% omnivamp</span>, and <span class=\"lol-stat\">30% 'bonus' movement speed</span> for the duration (20 second cooldown)."
+    },
+    "icon": "Final_Form.webp",
+    "wikiNote": "这是从 Wiki 发现但本地数据库缺失的条目",
+    "source": "wiki_merged",
+    "wikiKey": "Final Form"
+  },
+  {
+    "id": "Gash",
+    "tier": "Prismatic",
+    "name": {
+      "zh": "砍伤",
+      "en": "Gash"
+    },
+    "description": {
+      "zh": "普攻命中时造成 (20 – 40 / 10 – 20)（基于等级）(+ ( 25% / 20%) 额外护甲) 的额外真实伤害。此外，获得 50% 额外攻击速度。",
+      "en": "Basic attacks on-hit deal <span class=\"lol-true-damage\">pp=true</span> <span class=\"lol-scale-armor\">(+ 20% 'bonus' armor)</span> <span class=\"lol-stat\">'bonus' true damage</span>. Additionally, gain <span class=\"lol-stat\">50% 'bonus' attack speed</span>."
+    },
+    "icon": "Gash.webp",
+    "wikiNote": "这是从 Wiki 发现但本地数据库缺失的条目",
+    "source": "wiki_merged",
+    "wikiKey": "Gash"
+  },
+  {
+    "id": "Glass Cannon",
+    "tier": "Prismatic",
+    "name": {
+      "zh": "玻璃大炮",
+      "en": "Glass Cannon"
+    },
+    "description": {
+      "zh": "你获得一个相当于 70% 最大生命值的生命值上限，该上限无法通过任何手段修改或突破。作为回报，你造成的额外真实伤害相当于你减免后总伤害的 15%。",
+      "en": "You gain a health threshold equal to <span class=\"lol-stat\">70% 'maximum' health</span> which cannot be By increases or decreases to maximum health nor By healing and health regeneration by any means. In return, you deal <span class=\"lol-stat\">'bonus' true damage</span> equal to 15% of all of the damage you deal Damage calculated after modifiers."
+    },
+    "icon": "Glass_Cannon.webp",
+    "wikiNote": "这是从 Wiki 发现但本地数据库缺失的条目",
+    "source": "wiki_merged",
+    "wikiKey": "Glass Cannon"
+  },
+  {
+    "id": "Goldrend",
+    "tier": "Prismatic",
+    "name": {
+      "zh": "夺金",
+      "en": "Goldrend"
+    },
+    "description": {
+      "zh": "使用普攻或技能对敌方英雄造成伤害时，会额外造成 50 – 150（基于等级）（+ 40% 额外攻击力）（+ 20% 法术强度）额外魔法伤害，并为你提供 30 金币以及 25% 额外移动速度，持续 1.5 秒（每个英雄有 30 秒冷却时间）。",
+      "en": "Damaging an enemy champion with a basic attack or ability deals them an additional <span class=\"lol-magic-damage\">50 to 150</span> <span class=\"lol-stat\">(+ 40% 'bonus' AD)</span> <span class=\"lol-stat\">(+ 20% AP)</span> <span class=\"lol-stat\">'bonus' magic damage</span>, and grants you <span class=\"lol-gold\">30G</span> and <span class=\"lol-stat\">25% 'bonus' movement speed</span> for 1.5 seconds (30 second cooldown per champion)."
+    },
+    "icon": "Goldrend.webp",
+    "wikiNote": "这是从 Wiki 发现但本地数据库缺失的条目",
+    "source": "wiki_merged",
+    "wikiKey": "Goldrend"
+  },
+  {
+    "id": "King Me",
+    "tier": "Prismatic",
+    "name": {
+      "zh": "尊我为王",
+      "en": "King Me"
+    },
+    "description": {
+      "zh": "首次进入敌方队伍位于其泉水附近的传送门或大炮时，你将获得称王效果，使你获得一个随机棱彩阶位的海克斯强化，并且你背包中第一件符合条件的传说装备将升级为杰作版本。该装备上所有可升级属性的金币价值将增加整整1000。“称王”会根据背包栏位的顺序，优先升级第一件符合杰作升级条件的传说装备，按顺序检测每个槽位直到找到符合条件的装备。",
+      "en": "Upon entering the enemy team's <span class=\"lol-keyword\" title=\"gate\">warp gate</span> or gold value of all Includes AH, AP, AD, AS, AR, MR, and HP on the item is increased by exactly <span class=\"lol-gold\">1000G</span>.<br><br>King Me prioritize upgrading the first Legendary item eligible for a Masterwork upgrade based on its position in the inventory, detecting each slot until an eligible item is found."
+    },
+    "icon": "King_Me.webp",
+    "wikiNote": "这是从 Wiki 发现但本地数据库缺失的条目",
+    "source": "wiki_merged",
+    "wikiKey": "King Me"
+  },
+  {
+    "id": "Laser Heal",
+    "tier": "Prismatic",
+    "name": {
+      "zh": "激光治疗",
+      "en": "Laser Heal"
+    },
+    "description": {
+      "zh": "将未被<b>[[闪现]]</b>占用的召唤师技能替换为<b>激光治疗</b>。<br/><br/><b>激光治疗：</b>引导至多 2.5 秒，向目标方向发射一道能量束，期间你可以朝着光标方向转向。能量束在持续时间内为其中的你和盟友提供 <span class=\"lol-healing\">195 - 560</span> (基于等级) <span class=\"lol-stat\">(+ 70% AP)</span> <span class=\"lol-stat\">(+ 50% 额外生命值)</span> 的<span class=\"lol-healing\">治疗</span>，并对其中的敌人造成 <span class=\"lol-magic-damage\">200 - 550</span> (基于等级) <span class=\"lol-stat\">(+ 50% AP)</span> 的<span class=\"lol-magic-damage\">魔法伤害</span>。被命中的敌人还会被<span class=\"lol-status\">减速</span> 20%。",
+      "en": "Replaces the summoner spell in the slot not occupied by <b>[[Flash]]</b> with <b>Laser Heal</b>.<br/><br/><b>Laser Heal:</b> Channel for up to 2.5 seconds to project an energy beam in the target direction, during which you can steer the beam. The beam <span class=\"lol-healing\">heals</span> you and allies within for <span class=\"lol-healing\">195 - 560</span> (based on level) <span class=\"lol-stat\">(+ 70% AP)</span> <span class=\"lol-stat\">(+ 50% bonus health)</span> and deals <span class=\"lol-magic-damage\">200 - 550</span> (based on level) <span class=\"lol-stat\">(+ 50% AP)</span> <span class=\"lol-magic-damage\">magic damage</span> to enemies within over the duration. Enemies hit are <span class=\"lol-status\">slowed</span> by 20%."
+    },
+    "icon": "Laser_Heal.webp",
+    "wikiNote": "这是从 Wiki 发现但本地数据库缺失的条目",
+    "source": "wiki_merged",
+    "wikiKey": "Laser Heal"
+  },
+  {
+    "id": "Ominous Pact",
+    "tier": "Prismatic",
+    "name": {
+      "zh": "不祥契约",
+      "en": "Ominous Pact"
+    },
+    "description": {
+      "zh": "你的技能现在消耗 <physicalDamage>5% 当前生命值</physicalDamage> 来施放。<br><br><span class=\"lol-text-gold-2\">作为回报，你获得以下加成：</span><br><li>基于已损失生命值获得 <attention>75 – 150 (基于等级)</attention> <span class=\"lol-scale-a-p\">法术强度</span> (在损失 <attention>70%</attention> 生命值时达到上限)</li><li>获得 <attention>0% – 50%</attention> <span class=\"lol-stat\">额外移动速度</span> (基于已损失生命值)</li><li>获得 <healing>0% – 20%</healing> <span class=\"lol-stat\">全能吸血</span> (基于已损失生命值)</li>",
+      "en": "Your abilities now cost <physicalDamage>5% current Health</physicalDamage> to cast.<br><br><span class=\"lol-text-gold-2\">In return, you gain:</span><br><li>Up to <attention>75 – 150 (based on level)</attention> <span class=\"lol-scale-a-p\">Ability Power</span> based on <attention>missing Health</attention> (maxed at <attention>70%</attention> missing)</li><li><attention>0% – 50%</attention> <span class=\"lol-stat\">bonus Movement Speed</span> based on missing Health</li><li><healing>0% – 20%</healing> <span class=\"lol-stat\">Omnivamp</span> based on missing Health</li>"
+    },
+    "icon": "Ominous_Pact.webp",
+    "wikiNote": "这是从 Wiki 发现但本地数据库缺失的条目",
+    "source": "wiki_merged",
+    "wikiKey": "Ominous Pact"
+  },
+  {
+    "id": "Protein Shake",
+    "tier": "Prismatic",
+    "name": {
+      "zh": "蛋白粉奶昔",
+      "en": "Protein Shake"
+    },
+    "description": {
+      "zh": "获得 <healing>25%</healing> <attention>(+ 35% 每 100 额外护甲)</attention> <attention>(+ 35% 每 100 额外魔法抗性)</attention> 治疗和护盾强度。",
+      "en": "Gain <healing>25%</healing> <attention>(+ 35% per 100 bonus armor)</attention> <attention>(+ 35% per 100 bonus magic resistance)</attention> heal and shield power."
+    },
+    "icon": "Protein_Shake.webp",
+    "wikiNote": "这是从 Wiki 发现但本地数据库缺失的条目",
+    "source": "wiki_merged",
+    "wikiKey": "Protein Shake"
+  },
+  {
+    "id": "Snowball Roulette",
+    "tier": "Gold",
+    "name": {
+      "zh": "雪球扭蛋机",
+      "en": "Snowball Roulette"
+    },
+    "description": {
+      "zh": "使用雪球[[标记]]击中目标时，若目标是英雄，则对其施放一个随机的减益召唤师技能，并同时为你自己施放一个随机的增益召唤师技能。使用冲刺抵达后，会再次为你自己施放该增益召唤师技能。此外，你的标记冷却时间缩减，数值等同于 100 技能急速。<br><br>有害的召唤师技能包括[[虚弱]]和[[引燃]]，而有益的召唤师技能包括[[屏障]]、[[清晰术]]、[[净化]]、[[幽灵疾步]]和[[治疗术]]。如果未装备雪球，则非闪现槽位的召唤师技能将被替换为标记。 ",
+      "en": "Hitting a target with <b>[[Mark]]</b> casts a random harmful summoner spell on them if they are a champion, and also casts a random beneficial summoner spell on yourself. Using <b>Dash</b> casts the beneficial summoner spell on yourself again upon arrival. Additionally, your Mark cooldown is reduced equivalent to 100 ability haste.<br><br>Harmful summoner spells include <b>[[Exhaust]]</b> and <b>[[Ignite]]</b>, while beneficial ones consist of <b>[[Barrier]]</b>, <b>[[Clarity]]</b>, <b>[[Cleanse]]</b>, <b>[[Ghost]]</b>, and <b>[[Heal]]</b>. If <b>Mark</b> is not equipped, the summoner spell in the slot not occupied by <b>Flash</b> is replaced with <b>Mark</b>."
+    },
+    "icon": "Snowball_Roulette.webp",
+    "wikiNote": "这是从 Wiki 发现但本地数据库缺失的条目",
+    "source": "wiki_merged",
+    "wikiKey": "Snowball Roulette"
+  },
+  {
+    "id": "Ultimate Awakening",
+    "tier": "Prismatic",
+    "name": {
+      "zh": "终极唤醒",
+      "en": "Ultimate Awakening"
+    },
+    "description": {
+      "zh": "施放终极技能会重置你所有基础技能的冷却时间，并获得 300 基础技能急速，持续 15 秒（20 秒冷却时间）。此外，获得 30 终极技能急速。",
+      "en": "Casting your ultimate ability resets the cooldowns of all your basic abilities and grants you 300 basic ability haste for 15 seconds (20 second cooldown). Additionally, gain 30 ultimate haste."
+    },
+    "icon": "Ultimate_Awakening.webp",
+    "wikiNote": "这是从 Wiki 发现但本地数据库缺失的条目",
+    "source": "wiki_merged",
+    "wikiKey": "Ultimate Awakening"
+  },
+  {
+    "id": "Upgrade Mikael's Blessing",
+    "tier": "Prismatic",
+    "name": {
+      "zh": "升级：米凯尔的祝福",
+      "en": "Upgrade Mikael's Blessing"
+    },
+    "description": {
+      "zh": "将[[米凯尔的祝福]]升级，将“纯净”的冷却时间缩短至 45 秒，并强化其主动效果，使其改为影响你及附近所有友方英雄， 移除所有目标身上的群体控制效果（不包括击飞），为其提供 150 – 450（基于等级）（+ 50% 法术强度）的治疗效果，并提供 65% 韧性，持续 3 秒。此外，你将免费获得一件米凯尔的祝福。如果你已经拥有米凯尔的祝福，则改为获得 2300金币。如果你的物品栏已满，该物品将在有空位时立即发放。",
+      "en": "Upgrades <b>[[Mikael's Blessing]]</b>, reducing the cooldown of Purify to 45 seconds and empowering its active to instead affect you and all nearby allied champions, <span class=\"lol-keyword\" title=\"cleansing\">cleanse</span> all targets of <span class=\"lol-keyword\">crowd control</span> (excluding <span class=\"lol-status\">Airborne</span>), <span class=\"lol-healing\" title=\"healing\">heal</span> them for 150 to 450 <span class=\"lol-stat\">(+ 50% AP)</span>, and granting them 65% <span class=\"lol-keyword\">tenacity</span> for 3 seconds. Additionally, you are granted <b>Mikael's Blessing</b> for free.<br><br>If you already have <b>Mikael's Blessing</b>, gain <span class=\"lol-gold\">2300G</span> instead. If your inventory is full, the item will be granted as soon as a slot in the inventory is available."
+    },
+    "icon": "Upgrade_Mikael's_Blessing.webp",
+    "wikiNote": "这是从 Wiki 发现但本地数据库缺失的条目",
+    "source": "wiki_merged",
+    "wikiKey": "Upgrade Mikael's Blessing"
+  },
+  {
+    "id": "Windspeaker's Blessing",
+    "tier": "Prismatic",
+    "name": {
+      "zh": "风语者的祝福",
+      "en": "Windspeaker's Blessing"
+    },
+    "description": {
+      "zh": "你或队友对你施放的治疗和护盾，或你对队友施放的治疗和护盾，会为目标提供 30 – 60（基于等级）额外护甲和额外魔法抗性，持续 3 秒。",
+      "en": "Your or allies' <span class=\"lol-healing\" title=\"heals\">heal</span> and <span class=\"lol-shield\" title=\"shields\">shield</span> on yourself, or your heals and shields on allies, grant the target 30 to 60 <span class=\"lol-stat\">'bonus' armor</span> and <span class=\"lol-stat\">'bonus' magic resistance</span> for 3 seconds."
+    },
+    "icon": "Windspeaker's_Blessing.webp",
+    "wikiNote": "这是从 Wiki 发现但本地数据库缺失的条目",
+    "source": "wiki_merged",
+    "wikiKey": "Windspeaker's Blessing"
+  },
+  {
+    "id": "Trueshot Prodigy",
+    "tier": "Prismatic",
+    "name": {
+      "zh": "精准奇才",
+      "en": "Trueshot Prodigy"
+    },
+    "description": {
+      "zh": "如果你在对一名敌人造成伤害时与其相距超过 <span class=\"lol-stat\">700 码</span>，则会朝其方向发射一波**精准弹幕**。弹幕会对沿途的敌人造成 <span class=\"lol-magic-damage\">100 - 350</span> (基于等级) <span class=\"lol-stat\">(+ 80% 额外攻击力)</span> <span class=\"lol-stat\">(+ 60% 法术强度)</span> 的<span class=\"lol-magic-damage\">魔法伤害</span>（15 秒冷却时间）。<br/><br/>每支队伍最多 1 名玩家可拥有此强化。",
+      "en": "Upon damaging an enemy while over <span class=\"lol-stat\">700 units</span> away, fire a **Trueshot Barrage** in their direction. The barrage deals <span class=\"lol-magic-damage\">100 - 350</span> (based on level) <span class=\"lol-stat\">(+ 80% bonus AD)</span> <span class=\"lol-stat\">(+ 60% AP)</span> <span class=\"lol-magic-damage\">magic damage</span> to any enemies it passes through (15 second cooldown).<br/><br/>Limited to 1 player per team."
+    },
+    "mechanism": {
+      "zh": "技能命中后会延迟 1s 再发射",
+      "en": "After the skill hits, it will be delayed for 1s before firing."
+    },
+    "icon": "Trueshot_Prodigy.webp",
+    "wikiNote": "这是从 Wiki 发现但本地数据库缺失的条目",
+    "source": "wiki_merged",
+    "wikiKey": "Trueshot Prodigy"
+  },
+  {
+    "id": "juiced",
+    "tier": "Silver",
+    "name": {
+      "zh": "注魔",
+      "en": "Juiced"
+    },
+    "description": {
+      "zh": "<passive>攻击特效：</passive> 消耗 <span class=\"lol-text-gold-3\">2.5%当前法力值</span>，以造成相当于 <magicDamage>3.5%法力值</magicDamage> 的 <magicDamage>魔法伤害</magicDamage>。<br><br><span class=\"lol-text-gold-2\">特殊机制：</span>此伤害可以 <attention>暴击</attention>。",
+      "en": "<passive>On-Hit:</passive> Consumes <span class=\"lol-text-gold-3\">2.5% Current Mana</span> to deal <magicDamage>3.5% Mana</magicDamage> <magicDamage>magic damage</magicDamage>.<br><br><span class=\"lol-text-gold-2\">Special:</span> This damage can <attention>Critically Strike</attention>."
+    },
+    "icon": "juiced.webp"
+  },
+  {
+    "id": "infinite_recursion",
+    "tier": "Prismatic",
+    "name": {
+      "zh": "无限循环往复",
+      "en": "Infinite Recursion"
+    },
+    "description": {
+      "zh": "获得60技能急速，外加每次参与击杀3技能急速。",
+      "en": "Gain 60 Ability Haste, plus 3 Ability Haste per takedown."
+    },
+    "icon": "infiniterecursion.webp"
+  },
+  {
+    "id": "souleater",
+    "tier": "Gold",
+    "name": {
+      "zh": "吞噬灵魂",
+      "en": "Soul Eater"
+    },
+    "description": {
+      "zh": "定身一个敌方英雄时会提供20最大生命值。",
+      "en": "Immobilizing an enemy champion grants 20 max Health."
+    },
+    "icon": "souleater.webp"
+  },
+  {
+    "id": "phenomenalevil",
+    "tier": "Gold",
+    "name": {
+      "zh": "超凡邪恶",
+      "en": "Phenomenal Evil"
+    },
+    "description": {
+      "zh": "技能命中敌人获得1法术强度，如果不是第一个强化符文则自带40法术强度",
+      "en": "Dealing damage to an enemy grants 1 AP, and grants 40 AP if it is not the first augment."
+    },
+    "icon": "phenomenalevil.webp"
+  },
+  {
+    "id": "final_city_transit",
+    "tier": "Gold",
+    "name": {
+      "zh": "最终都市列车",
+      "en": "Final City Transit"
+    },
+    "description": {
+      "zh": "在你阵亡时，朝击杀你的敌人发动一辆列车，对它命中的每个敌人造成 <physicalDamage>150-750 (基于等级) +<healing>15%最大生命值</healing> +<magicDamage>50%法术强度</magicDamage> +<physicalDamage>65%额外攻击力</physicalDamage></physicalDamage> 的物理伤害。这个列车不会停下。",
+      "en": "When you die, launch a train towards your killer, dealing <physicalDamage>150-750 (based on level) +<healing>15% Max HP</healing> +<magicDamage>50% AP</magicDamage> +<physicalDamage>65% Bonus AD</physicalDamage></physicalDamage> physical damage to enemies it hits. The train does not stop."
+    },
+    "icon": "Nightstalking.webp"
+  },
+  {
+    "id": "donation",
+    "tier": "Gold",
+    "name": {
+      "zh": "捐赠",
+      "en": "Donation"
+    },
+    "description": {
+      "zh": "获得1750金币。谢谢老板！",
+      "en": "Receive 1750 Gold. Thanks chat! :)"
+    },
+    "icon": "donation.webp"
+  },
+  {
+    "id": "red_envelopes",
+    "tier": "Gold",
+    "name": {
+      "zh": "红包",
+      "en": "Red Envelopes"
+    },
+    "description": {
+      "zh": "每 <span class=\"lol-text-gold-3\">25-15</span> (基于等级) 秒，你周围会随机出现一个<span class=\"lol-text-gold-1\">红包</span>。拾取红包可获得 <span class=\"lol-text-gold-1\">8-15</span> 到 <span class=\"lol-text-gold-1\">22-46</span> (基于等级) <span class=\"lol-text-gold-3\">金币</span>，并获得 <attention>150 移动速度</attention>，持续 <span class=\"lol-text-grey-1\">4</span> 秒。",
+      "en": "<span class=\"lol-text-gold-1\">Red Envelopes</span> appear randomly around you every <span class=\"lol-text-gold-3\">25-15</span> (based on level) seconds. Picking them up grants <span class=\"lol-text-gold-1\">8-15</span> to <span class=\"lol-text-gold-1\">22-46</span> (based on level) <span class=\"lol-text-gold-3\">Gold</span> and <attention>150 Move Speed</attention> for <span class=\"lol-text-grey-1\">4</span> seconds."
+    },
+    "icon": "redenvelopes.webp"
+  },
+  {
+    "id": "heads_up_cupcake",
+    "tier": "Prismatic",
+    "name": {
+      "zh": "当心小蛋糕！",
+      "en": "Heads Up Cupcake!"
+    },
+    "description": {
+      "zh": "周期性地出现一个小蛋糕飞越整个大桥。接住小蛋糕会获得 <span class=\"lol-text-gold-1\">15 金币</span>。<br><br>小蛋糕会为拾取者及附近的友军 <healing>回复 50-250 (基于等级) +8%已损失生命值</healing> 的生命值，但会被施加 <status>25% 减速</status>，持续 <span class=\"lol-text-grey-1\">0.5</span> 秒。<br><br><span class=\"lol-text-gold-2\">额外收益：</span>你的小蛋糕每累计治疗 <healing>1000 生命值</healing>，就会提供 <span class=\"lol-text-gold-1\">150 金币</span>。",
+      "en": "Periodically a Cupcake flies across the bridge. Catch it to gain <span class=\"lol-text-gold-1\">15 Gold</span>.<br><br>The Cupcake <healing>restores 50-250 (based on level) +8% missing Health</healing> to the collector and nearby allies, but applies a <status>25% Slow</status> for <span class=\"lol-text-grey-1\">0.5</span> seconds.<br><br><span class=\"lol-text-gold-2\">Bonus:</span> Every <healing>1000 Health</healing> your Cupcake heals grants you <span class=\"lol-text-gold-1\">150 Gold</span>."
+    },
+    "icon": "watchoutgrapefruit.webp"
+  },
+  {
+    "id": "criticalmissile",
+    "tier": "Gold",
+    "name": {
+      "zh": "暴击飞弹",
+      "en": "Critical Missiles"
+    },
+    "description": {
+      "zh": "当你产生 <attention>暴击</attention> 时，发射 <attention>1+x</attention> (<attention>+300%暴击率</attention>) 个爆竹。每个爆竹造成 <magicDamage>20-100 (基于等级)</magicDamage> 的魔法伤害。<br><br>此外，获得 <attention>25% 暴击几率</attention>。",
+      "en": "Upon dealing a <attention>Critical Strike</attention>, fire <attention>1+x</attention> (<attention>+300% Critical Strike Chance</attention>) Firecrackers. Each Firecracker deals <magicDamage>20-100 (based on level)</magicDamage> magic damage.<br><br>Additionally, gain <attention>25% Critical Strike Chance</attention>."
+    },
+    "icon": "criticalmissile.webp"
+  },
+  {
+    "id": "twinfire",
+    "tier": "Silver",
+    "name": {
+      "zh": "双生火焰",
+      "en": "Twin Fire"
+    },
+    "description": {
+      "zh": "造成技能伤害时，发射 <attention>1+x</attention> (<attention>+300%暴击率</attention>) 个爆竹。每个爆竹造成 <magicDamage>15 (<span class=\"lol-text-gold-3\">10-30</span> 基于等级 <healing>+7%额外攻击力</healing> <magicDamage>+7%法术强度</magicDamage>)</magicDamage> 魔法伤害。<br><br>此外，获得 <attention>15%暴击几率</attention>。",
+      "en": "Dealing ability damage fires <attention>1+x</attention> (<attention>+300% Critical Strike Chance</attention>) Firecrackers. Each Firecracker deals <magicDamage>15 (<span class=\"lol-text-gold-3\">10-30</span> based on level <healing>+7% Bonus AD</healing> <magicDamage>+7% AP</magicDamage>)</magicDamage> magic damage.<br><br>Additionally, gain <attention>15% Critical Strike Chance</attention>."
+    },
+    "icon": "twinfire.webp"
+  },
+  {
+    "id": "promqueen",
+    "tier": "Prismatic",
+    "name": {
+      "zh": "舞会女王",
+      "en": "Prom Queen"
+    },
+    "description": {
+      "zh": "每25秒，自动施放一道闪亮宝冠降临在你头上。当它着陆时，获得洛的终极技能，魅惑你碰到的敌人们。",
+      "en": "Every 25 seconds, Autocast a sparkly tiara descends upon you. When it lands, gain Rakan's Ultimate, charming enemies you touch."
+    },
+    "icon": "promqueen.webp"
+  },
+  {
+    "id": "sonata",
+    "tier": "Gold",
+    "name": {
+      "zh": "咏叹奏明",
+      "en": "Sonata"
+    },
+    "description": {
+      "zh": "每10秒，以一个不断交替的旋律来自动施放坚毅咏叹调和迅捷奏鸣曲。<br>坚毅咏叹调治疗附近友军并提供一个临时的护盾光环。<br>迅捷奏鸣曲提供一个临时光环来提供额外移动速度",
+      "en": "Every 10 seconds, automatically cast the Aria of Perseverence and Song of Celerity in an alternating melody. <br>Aria of Perseverence heals nearby allies and grants a temporary shielding aura. <br>Song of Celerity grants a temporary aura that provides bonus Movement Speed."
+    },
+    "icon": "sonata.webp"
+  },
+  {
+    "id": "firefox",
+    "tier": "Silver",
+    "name": {
+      "zh": "火狐",
+      "en": "FireFox"
+    },
+    "description": {
+      "zh": "<span class=\"lol-text-gold-1\">自动施放：</span>每 <span class=\"lol-text-grey-1\">7</span> 秒，获得 <attention>40% 移动速度</attention> 并召唤 <span class=\"lol-text-gold-3\">3</span> 道烈焰环绕自身。烈焰会自动瞄准范围内最近的可见英雄，造成 <attention>35-160 (基于等级) <magicDamage>+25%法术强度</magicDamage> <physicalDamage>+25%额外攻击力</physicalDamage></attention> 的 <span class=\"lol-text-gold-2\">自适应伤害</span>。<br><br>后续烈焰对相同目标的命中仅造成 <span class=\"lol-text-grey-1\">30%</span> 伤害。",
+      "en": "<span class=\"lol-text-gold-1\">Autocast:</span> Every <span class=\"lol-text-grey-1\">7</span> seconds, gain <attention>40% Move Speed</attention> and conjure <span class=\"lol-text-gold-3\">3</span> orbiting flames. These flames target the closest visible enemy champion in range, dealing <attention>35-160 (based on level) <magicDamage>+25% AP</magicDamage> <physicalDamage>+25% Bonus AD</physicalDamage></attention> <span class=\"lol-text-gold-2\">Adaptive damage</span>.<br><br>Subsequent hits against the same target deal <span class=\"lol-text-grey-1\">30%</span> damage."
+    },
+    "icon": "firfox.webp"
+  },
+  {
+    "id": "pinball",
+    "tier": "Gold",
+    "name": {
+      "zh": "弹球",
+      "en": "Pinball"
+    },
+    "description": {
+      "zh": "你的雪球获得50技能急速，造成额外的100-500（基于等级）真实伤害并且可以从墙体上反弹。每次反弹会提升它25%体型、20%造成伤害，并且缩短它30%冷却时间。",
+      "en": "Your Snowball gains 50 Ability Haste, deals extra 100-500 (based on level) true damage and bounces off walls. Each bounce increases its size by 25%, increases its damage dealt by 20% and reduces its Cooldown by 30%."
+    },
+    "icon": "pinballsnowball.webp"
+  },
+  {
+    "id": "holysnowball",
+    "tier": "Prismatic",
+    "name": {
+      "zh": "神圣雪球",
+      "en": "Holy Snowball"
+    },
+    "description": {
+      "zh": "获得100雪球技能急速。<br><br>当你使用雪球冲刺时，你会获得持续1.5秒的无敌。<br><br>如果你没有雪球，你会获得一个雪球。",
+      "en": "Gain 100 Ability Haste on Snowball.<br><br>You become Invulnerable for 1.5 seconds when you dash with Snowball.<br><br>If you don't have one, gain a Snowball."
+    },
+    "icon": "goldensnowball.webp"
+  },
+  {
+    "id": "stats",
+    "tier": "Silver",
+    "name": {
+      "zh": "属性！",
+      "en": "Stats!"
+    },
+    "description": {
+      "zh": "获得2个属性锻造器",
+      "en": "Gain 2 Stat Anvils!"
+    },
+    "icon": "stats.webp"
+  },
+  {
+    "id": "statsonstats",
+    "tier": "Gold",
+    "name": {
+      "zh": "属性叠属性！",
+      "en": "Stats on Stats!"
+    },
+    "description": {
+      "zh": "获得3个锻造器，金色和彩色锻造器概率增加",
+      "en": "Gain 3 Stat Anvils, with a higher chance of Gold and Prismatic Anvils!"
+    },
+    "icon": "statsonstats.webp"
+  },
+  {
+    "id": "statsonstatsonstats",
+    "tier": "Prismatic",
+    "name": {
+      "zh": "属性叠属性叠属性！",
+      "en": "Stats on Stats on Stats!"
+    },
+    "description": {
+      "zh": "获得4个锻造器，金色和彩色锻造器概率增加",
+      "en": "Gain 4 Stat Anvils, with a higher chance of Gold and Prismatic Anvils! On your next Augment selection, gain one additional reroll per slot."
+    },
+    "icon": "statsonstatsonstats.webp"
+  },
+  {
+    "id": "criticalmissile",
+    "tier": "Gold",
+    "name": {
+      "zh": "暴击飞弹",
+      "en": "Critical Missiles"
+    },
+    "description": {
+      "zh": "当你产生 <attention>暴击</attention> 时，发射 <attention>1+x</attention> (<attention>+300%暴击率</attention>) 个爆竹。每个爆竹造成 <magicDamage>11-40 (基于等级) <healing>+7%额外攻击力</healing> <magicDamage>+10%法术强度</magicDamage></magicDamage> 的魔法伤害。<br><br>此外，获得 <attention>25% 暴击几率</attention>。<br><br><span class=\"lol-text-gold-3\">该符文暂时被禁用。</span>",
+      "en": "Upon dealing a <attention>Critical Strike</attention>, fire <attention>1+x</attention> (<attention>+300% Critical Strike Chance</attention>) Firecrackers. Each Firecracker deals <magicDamage>11-40 (based on level) <healing>+7% Bonus AD</healing> <magicDamage>+10% AP</magicDamage></magicDamage> magic damage.<br><br>Additionally, gain <attention>25% Critical Strike Chance</attention>. <span class=\"lol-text-gold-3\">This augment is currently disabled.</span>"
+    },
+    "icon": "criticalmissile.webp"
+  },
+  {
+    "id": "grandmaschilioil",
+    "tier": "Gold",
+    "name": {
+      "zh": "祖母的辣椒油",
+      "en": "Grandma's Chili Oil"
+    },
+    "description": {
+      "zh": "<span class=\"lol-text-gold-1\">核心机制：</span>施加一个<status>灼烧</status>时，会在附近掉落一滩持续 <attention>5秒</attention> 的辣椒油。辣椒油每秒会为友军提供 <healing>60-150 (基于等级) 生命值</healing> 回复，并对敌人造成 <magicDamage>100 魔法伤害</magicDamage>。<br><br><span class=\"lol-text-grey-2\">你施加的每个<status>灼烧</status>都会使辣椒油的效果变得更强。</span>",
+      "en": "Applying a <status>Burn</status> drops a <attention>Chili Oil</attention> pool nearby for <attention>5s</attention>. Chili Oil <healing>restores 60-150 (based on level) Health</healing> and deals <magicDamage>100 Magic Damage</magicDamage> to enemies per second.<br><br><span class=\"lol-text-grey-2\">Chili Oil effects become stronger for each <status>Burn</status> you apply.</span>"
+    },
+    "icon": "grandmaschilioil.webp"
+  },
+  {
+    "id": "phenomenalevil",
+    "tier": "Gold",
+    "name": {
+      "zh": "超凡邪恶",
+      "en": "Phenomenal Evil"
+    },
+    "description": {
+      "zh": "技能命中敌人获得1法术强度，如果不是第一个强化符文则自带40法术强度",
+      "en": "Dealing damage to an enemy grants 1 AP, and grants 40 AP if it is not the first augment."
+    },
+    "icon": "phenomenalevil.webp"
+  },
+  {
+    "id": "poroblast",
+    "tier": "Gold",
+    "name": {
+      "zh": "魄罗爆破手",
+      "en": "Poro Blaster"
+    },
+    "description": {
+      "zh": "你周期性地召集魄罗。伤害一个敌人时会对其发射所有魄罗，每个魄罗造成目标3%最大生命值真实伤害以及短暂的击退。<br><br><span class=\"lol-text-grey-2\">每个队伍仅有1个玩家可以拿到它</span>",
+      "en": "You gather Poros over time. Damaging an enemy fires all Poros at them, each dealing target's 3% max Health true damage and briefly Knocking Back.<br><br><span class=\"lol-text-grey-2\">Each team can only have one Poro Blaster.</span>"
+    },
+    "icon": "poroblast.webp"
+  },
+  {
+    "id": "shrink_engine",
+    "tier": "Gold",
+    "name": {
+      "zh": "缩小引擎",
+      "en": "Shrink Engine"
+    },
+    "description": {
+      "zh": "参与击杀后会让你变小4%，每次提供8技能急速和1%移动速度。<br>阵亡时损失65%层数。",
+      "en": "Takedowns grant a stack that makes you 4% smaller, grants 8 Ability Haste, and 1% Movement Speed.<br>Lose 65% stacks on death."
+    },
+    "icon": "shrinkengine.webp"
+  },
+  {
+    "id": "upgrade_thornmail",
+    "tier": "Silver",
+    "name": {
+      "zh": "升级：荆棘之甲",
+      "en": "Upgrade Thornmail"
+    },
+    "description": {
+      "zh": "在脱离战斗 <attention>20-5 (基于等级) 秒</attention> 后，你的 <span class=\"lol-text-gold-3\">[[荆棘之甲]]</span> 或 <span class=\"lol-text-gold-3\">[[棘刺背心]]</span> 会产生一层 <span class=\"lol-text-gold-1\">荆棘甲壳</span>。<br><br><span class=\"lol-text-gold-1\">荆棘甲壳：</span>使你下次受到的普通攻击对攻击者回敬 <physicalDamage>50-250 (基于等级) (+12% 最大生命值) (+30% 护甲和魔法抗性) 物理伤害</physicalDamage>。<br><br><span class=\"lol-text-grey-2\">该效果会在触发一次后进入冷却。</span>",
+      "en": "After being out of combat for <attention>20-5s (based on level)</attention>, your <span class=\"lol-text-gold-3\">[[Thornmail]]</span> or <span class=\"lol-text-gold-3\">[[Bramble Vest]]</span> generates a <span class=\"lol-text-gold-1\">Thorn Shell</span>.<br><br><span class=\"lol-text-gold-1\">Thorn Shell:</span> Your next received Attack reflects <physicalDamage>50-250 (based on level) (+12% max Health) (+30% Resists) Physical Damage</physicalDamage> to the attacker.<br><br><span class=\"lol-text-grey-2\">This effect is consumed on trigger and refreshes after exiting combat.</span>"
+    },
+    "icon": "Upgrade_Collector.webp"
+  },
+  {
+    "id": "porokingbounce",
+    "tier": "Prismatic",
+    "name": {
+      "zh": "魄罗之王的弹跳",
+      "en": "Bounce of the Poro King"
+    },
+    "description": {
+      "zh": "将一个召唤师技能替换为 <span class=\"lol-text-gold-1\">【魄罗之王的弹跳】</span>！<br><br><span class=\"lol-text-gold-1\">【魄罗之王的弹跳】：</span><br>在 <attention>3秒</attention> 内变身为<span class=\"lol-text-gold-3\">魄罗国王</span>！期间获得 <status>无视碰撞体积</status> 与 <status>不可阻挡</status> 状态，并获得 <shield>70% 伤害减免</shield> 以及 <attention>40% 移动速度</attention>。变身期间你会被 <status>沉默</status> 且 <status>无法攻击</status>。<br><br>此外，你每 <attention>1秒</attention> 会进行一次跳跃，着陆时对附近敌人造成 <physicalDamage>100-700 (基于等级) 物理伤害</physicalDamage> 并将其 <status>击退</status>。<br><br><span class=\"lol-text-grey-2\">魄罗国王在每次施放期间无法对同一名敌人造成多次击退。</span>",
+      "en": "Replace a Summoner Spell with <span class=\"lol-text-gold-1\">[Bounce of the Poro King]</span>!<br><br><span class=\"lol-text-gold-1\">[Bounce of the Poro King]:</span><br>For <attention>3s</attention>, transform into the <span class=\"lol-text-gold-3\">Poro King</span>! You become <status>Unstoppable</status> and <status>Ghosted</status>, gaining <shield>70% Damage Reduction</shield> and <attention>40% Movement Speed</attention>, but become <status>Silenced</status> and <status>Disarmed</status>.<br><br>Additionally, bounce every <attention>1s</attention>, dealing <physicalDamage>(100-700 based on level) Physical Damage</physicalDamage> and <status>Knocking Back</status> nearby enemies on landing.<br><br><span class=\"lol-text-grey-2\">The Poro King cannot Knock Back the same enemy more than once per cast.</span>"
+    },
+    "icon": "poroking.webp"
+  },
+  {
+    "id": "handofbaron",
+    "tier": "Prismatic",
+    "name": {
+      "zh": "男爵之手",
+      "en": "Hand of Baron"
+    },
+    "description": {
+      "zh": "获得 <attention>25%</attention> <span class=\"lol-text-gold-3\">适应之力</span>。附近的友方小兵获得 <span class=\"lol-text-gold-1\">极大增强</span>。<br><br><span class=\"lol-text-grey-2\">（该效果会提升小兵的伤害、抗性与体型）</span>",
+      "en": "Gain <attention>25%</attention> <span class=\"lol-text-gold-3\">Adaptive Force</span>. Nearby allied minions are <span class=\"lol-text-gold-1\">greatly empowered</span>.<br><br><span class=\"lol-text-grey-2\">(Minions gain increased damage, resistances, and size.)</span>"
+    },
+    "icon": "handofbaron.webp"
+  },
+  {
+    "id": "littledevil",
+    "tier": "Prismatic",
+    "name": {
+      "zh": "你肩上的恶魔",
+      "en": "Devil on Your Shoulder"
+    },
+    "description": {
+      "zh": "你与<span class=\"lol-text-gold-1\">【小恶魔】</span>签订了契约。<br><br><span class=\"lol-text-gold-2\">契约代价：</span>每秒损失 <attention>0.1% 当前生命值</attention>。若附近存在敌方英雄，则代价提升至每秒 <trueDamage>5% 当前生命值</trueDamage>。<br><br><span class=\"lol-text-gold-2\">契约回报：</span>你的攻击和技能造成 <trueDamage>15% 额外真实伤害</trueDamage>，并在附近生成持续 <attention>5秒</attention> 的残骸。拾取残骸会 <healing>回复 50-150 (基于等级) (+50% 额外攻击力) (+25% 法术强度) 生命值</healing> 并获得 <attention>15% 移动速度</attention>，持续 <attention>1秒</attention>。<br><br><span class=\"lol-text-grey-2\">参与击杀英雄会使小恶魔进入狂热状态，在短时间内提升此强化效果。</span>",
+      "en": "Forge a pact with <span class=\"lol-text-gold-1\">The Little Devil</span>.<br><br><span class=\"lol-text-gold-2\">The Sacrifice:</span> Lose <attention>0.1% current Health</attention> per second, increased to <trueDamage>5% current Health</trueDamage> while near enemies.<br><br><span class=\"lol-text-gold-2\">The Reward:</span> Attacks and Abilities deal <trueDamage>15% bonus True Damage</trueDamage> and spawn Remnants nearby for <attention>5s</attention>. Collecting a Remnant <healing>restores 50-150 (based on level) (+50% bonus AD) (+25% AP) Health</healing> and grants <attention>15% Movement Speed</attention> for <attention>1s</attention>.<br><br><span class=\"lol-text-grey-2\">Champion takedowns send the Devil into a frenzy, amplifying these effects for a short duration.</span>"
+    },
+    "icon": "littledevil.webp"
+  },
+  {
+    "id": "dropkick",
+    "tier": "Prismatic",
+    "name": {
+      "zh": "飞身踢",
+      "en": "Dropkick"
+    },
+    "description": {
+      "zh": "你的普通攻击会 <status>处决</status> 生命值低于 <attention>(5% +0.002% 额外生命值 +0.035% 基础攻击力)</attention> 最大生命值的敌方英雄。成功处决时，为你 <healing>回复 100-300 (基于等级) (+25% 额外生命值) 生命值</healing> 并 <status>击退</status> 目标。<br><br>被击退的敌人在撞击地形、敌人或到达终点时会产生爆炸，对附近敌人造成 <magicDamage>150-500 (基于等级) (+100% 额外护甲) (+50% 额外魔法抗性) 魔法伤害</magicDamage>。<br><br><span class=\"lol-text-gold-1\">核心联动：</span><span class=\"lol-text-grey-1\">这些爆炸效果可以 <span class=\"lol-text-gold-3\">连环触发</span>。</span>",
+      "en": "Your Attacks <status>Execute</status> enemy champions below <attention>(5% +0.002% bonus Health +0.035% base AD)</attention> max Health. Executing a champion <healing>restores 100-300 (based on level) (+25% bonus Health) Health</healing> and <status>Knocks Back</status> the target.<br><br>Upon colliding with terrain, enemies, or reaching max distance, <status>Knocked Back</status> units explode, dealing <magicDamage>150-500 (based on level) (+100% bonus Armor) (+50% bonus Magic Resist) Magic Damage</magicDamage> to nearby enemies.<br><br><span class=\"lol-text-gold-1\">Chain Reaction:</span> <span class=\"lol-text-grey-1\">These explosions can <span class=\"lol-text-gold-3\">Chain</span>.</span>"
+    },
+    "icon": "dropkick.webp"
+  },
+  {
+    "id": "triggeredinferno",
+    "tier": "Prismatic",
+    "name": {
+      "zh": "扳机炼狱",
+      "en": "Triggered Inferno"
+    },
+    "description": {
+      "zh": "通过与前一次不同的普通攻击或技能对敌方英雄造成伤害时，可获得 <span class=\"lol-text-gold-1\">评价等级</span> (从 <span class=\"lol-text-grey-2\">F</span> 提升至 <span class=\"lol-text-gold-3\">S</span>)。<br><br>每层 <span class=\"lol-text-gold-1\">评价等级</span> 提供 <attention>2.8%-3.5% (基于等级) 移动速度</attention>。<br><br>在达到 <span class=\"lol-text-gold-1\">等级 S</span> 时，会消耗所有层数并在 <attention>2秒</attention> 内向附近所有敌人倾泻 <attention>10次</attention> 弹雨。每次射击造成 <physicalDamage>10-40 (基于等级) (+35% 额外攻击力) (+20% 法术强度) 物理伤害</physicalDamage>。对生命值低于 <attention>30%</attention> 的敌人会产生 <status>暴击</status>，造成 <physicalDamage>20-80 (基于等级) (+70% 额外攻击力) (+40% 法术强度) 物理伤害</physicalDamage>。 (冷却时间：<attention>15秒</attention>)。<br><br><span class=\"lol-text-grey-2\">射击可触发生命偷取效果，但对小兵仅造成 25% 伤害。</span>",
+      "en": "Damaging enemy champions with Attacks or Abilities different from the previous one grants <span class=\"lol-text-gold-1\">Style</span> (from <span class=\"lol-text-grey-2\">F</span> to <span class=\"lol-text-gold-3\">S</span>).<br><br>Gain <attention>2.8%-3.5% (based on level) Movement Speed</attention> per Style rank.<br><br>At <span class=\"lol-text-gold-1\">Rank S</span>, consume all Style to unleash a torrent of gunshots at all nearby enemies <attention>10 times</attention> over <attention>2s</attention>. Each shot deals <physicalDamage>10-40 (based on level) (+35% bonus AD) (+20% AP) Physical Damage</physicalDamage>. Enemies below <attention>30% Health</attention> are struck <status>Critically</status> for <physicalDamage>20-80 (based on level) (+70% bonus AD) (+40% AP) Physical Damage</physicalDamage>. (Cooldown: <attention>15s</attention>).<br><br><span class=\"lol-text-grey-2\">Shots apply Lifesteal and deal 25% damage to minions.</span>"
+    },
+    "icon": "madscientist.webp"
+  },
+  {
+    "id": "empoweredbythefaithful",
+    "tier": "Prismatic",
+    "name": {
+      "zh": "信念者的强化",
+      "en": "Empowered By The Faithful"
+    },
+    "description": {
+      "zh": "为友军提供 <healing>治疗</healing> 或 <shield>护盾</shield> 会对其施加持续 <attention>8秒</attention> 的祝福。被祝福的友军对敌方英雄造成伤害时，你会获得 <span class=\"lol-text-gold-3\">【虔诚】</span> 叠层。<br><br>在达到 <attention>50层【虔诚】</attention> 时，会释放一道冲击波，造成 <magicDamage>50-300 (基于等级) (+75000% 治疗和护盾强度) 魔法伤害</magicDamage>，并 <status>处决</status> 生命值低于 <attention>(25% 治疗和护盾强度)</attention> 的敌人。",
+      "en": "<healing>Healing</healing> or <shield>Shielding</shield> an ally <span class=\"lol-text-gold-3\">blesses</span> them for <attention>8s</attention>. When blessed allies deal damage to enemy champions, you gain stacks of <span class=\"lol-text-gold-1\">Devotion</span>.<br><br>At <attention>50 Devotion</attention>, unleash a shockwave that deals <magicDamage>50-300 (based on level) (+75000% Heal and Shield Power) Magic Damage</magicDamage> and <status>Executes</status> enemies below <attention>(25% Heal and Shield Power) Health</attention>."
+    },
+    "icon": "empoweredbythefaithful.webp"
+  },
+  {
+    "id": "quest_voidimmolation",
+    "tier": "Prismatic",
+    "name": {
+      "zh": "任务：艾卡西亚的陷落",
+      "en": "Quest: Icathia's Fall"
+    },
+    "description": {
+      "zh": "<span class=\"lol-text-gold-1\">立即：</span>获得一件 <span class=\"lol-text-gold-3\">[[斑比的熔渣]]</span>，且你能够同时购买 <attention>2</attention> 件【献祭】类装备。<br><br><span class=\"lol-text-gold-1\">达成要求：</span>同时拥有 <span class=\"lol-text-gold-3\">[[日炎圣盾]]</span> 和 <span class=\"lol-text-gold-3\">[[璀璨回响]]</span>。<br><br><span class=\"lol-text-gold-1\">任务奖励：</span><span class=\"lol-text-gold-3\">[[日炎圣盾]]</span> 与 <span class=\"lol-text-gold-3\">[[璀璨回响]]</span> 将会融合成 <span class=\"lol-prismatic\">[[虚空献祭]]</span>。",
+      "en": "<span class=\"lol-text-gold-1\">Immediately:</span> Gain a <span class=\"lol-text-gold-3\">[[Bami's Cinder]]</span> and you can purchase <attention>2</attention> <span class=\"lol-text-gold-3\">Immolate</span> Items.<br><br><span class=\"lol-text-gold-1\">Requirement:</span> Possess both <span class=\"lol-text-gold-3\">[[Sunfire Aegis]]</span> and <span class=\"lol-text-gold-3\">[[Hollow Radiance]]</span>.<br><br><span class=\"lol-text-gold-1\">Reward:</span> <span class=\"lol-text-gold-3\">[[Sunfire Aegis]]</span> and <span class=\"lol-text-gold-3\">[[Hollow Radiance]]</span> combine into <span class=\"lol-prismatic\">[[Void Immolation]]</span>."
+    },
+    "icon": "quest_voidimmolation.webp"
+  },
+  {
+    "id": "stuckinherewithme",
+    "tier": "Prismatic",
+    "name": {
+      "zh": "和我一起困在这里",
+      "en": "Stuck In Here With Me"
+    },
+    "description": {
+      "zh": "获得 <attention>30</attention> <span class=\"lol-text-gold-3\">终极技能极速</span>。<br><br>施放<span class=\"lol-text-gold-1\">终极技能</span>后，获得 <shield>50% 伤害减免</shield> 并 <status>嘲讽</status> 周围敌人，持续 <attention>2秒</attention>。",
+      "en": "Gain <attention>30</attention> <span class=\"lol-text-gold-3\">Ultimate Haste</span>.<br><br>After casting your <span class=\"lol-text-gold-1\">Ultimate</span>, gain <shield>50% Damage Reduction</shield> and <status>Taunt</status> nearby enemies for <attention>2s</attention>."
+    },
+    "icon": "stuckinherewithme.webp"
+  },
+  {
+    "id": "missingping",
+    "tier": "Prismatic",
+    "name": {
+      "zh": "？？？",
+      "en": "???"
+    },
+    "description": {
+      "zh": "你的<span class=\"lol-text-gold-1\">【敌人消失】</span>信号会在目标位置发射一枚飞弹。<br><br>飞弹对敌人造成 <magicDamage>100-400 (基于等级) (+10% 目标已损失生命值) 魔法伤害</magicDamage>，并为范围内的友军提供 <healing>50-200 (基于等级) (+10% 目标已损失生命值) 生命值</healing> 回复。",
+      "en": "Your <span class=\"lol-text-gold-1\">Missing Pings</span> launch a missile at the targeted location.<br><br>The missile deals <magicDamage>100-400 (based on level) (+10% target's Missing Health) Magic Damage</magicDamage> to enemies and <healing>restores 50-200 (based on level) (+10% target's Missing Health) Health</healing> to allies."
+    },
+    "icon": "missingping.webp"
+  },
+  {
+    "id": "voidrift",
+    "tier": "Prismatic",
+    "name": {
+      "zh": "虚空裂隙",
+      "en": "Void Rift"
+    },
+    "description": {
+      "zh": "用技能伤害敌人时，会留下持续 <attention>6秒</attention> 的 <span class=\"lol-text-gold-3\">虚空裂痕</span>。若在附近产生另一个 <span class=\"lol-text-gold-3\">虚空裂痕</span>，则会消耗两者并在其间开启一道 <span class=\"lol-text-gold-1\">虚空裂隙</span>。<br><br><span class=\"lol-text-gold-1\">虚空裂隙：</span>对范围内的敌人造成 <magicDamage>100-450 (基于等级) (+550% 护甲穿透) (+550% 固定法术穿透) 魔法伤害</magicDamage>，并施加 <status>99% 减速</status>，在 <attention>1秒</attention> 内衰减。",
+      "en": "Damaging enemies with an Ability creates a <span class=\"lol-text-gold-3\">Void Scar</span> for <attention>6s</attention>. If another <span class=\"lol-text-gold-3\">Void Scar</span> is created nearby, both are consumed to open a <span class=\"lol-text-gold-1\">Void Rift</span> between them.<br><br><span class=\"lol-text-gold-1\">Void Rift:</span> Deals <magicDamage>100-450 (based on level) (+550% Armor Pen) (+550% Flat Magic Pen) Magic Damage</magicDamage> to enemies inside and applies a <status>99% Slow</status>, decaying over <attention>1s</attention>."
+    },
+    "icon": "voidrift.webp"
+  },
+  {
+    "id": "crackopenthategg",
+    "tier": "Silver",
+    "name": {
+      "zh": "砸开那颗蛋",
+      "en": "Crack Open That Egg"
+    },
+    "description": {
+      "zh": "护盾过期后会爆炸，对周围敌人造成盾值等量魔法伤害",
+      "en": "Your shields will detonate on expiration."
+    },
+    "icon": "crackopenthategg.webp"
+  },
+  {
+    "id": "critncast",
+    "tier": "Silver",
+    "name": {
+      "zh": "由暴生急",
+      "en": "Crit 'n Cast"
+    },
+    "description": {
+      "zh": "获得相当于你40%暴击几率的技能急速。",
+      "en": "Gain Ability Haste equal to 40% of your Critical Strike Chance."
+    },
+    "icon": "critncast.webp"
+  },
+  {
+    "id": "doubletap",
+    "tier": "Gold",
+    "name": {
+      "zh": "双发快射",
+      "en": "Double Tap"
+    },
+    "description": {
+      "zh": "你的暴击施加一次额外的攻击特效。获得25%暴击几率。",
+      "en": "Your Critical Strikes apply On-Hit effects an additional time. Gain 25% Critical Strike Chance."
+    },
+    "icon": "doubletap.webp"
+  },
+  {
+    "id": "hextechsoul",
+    "tier": "Silver",
+    "name": {
+      "zh": "海克斯龙魂",
+      "en": "Hextech Soul"
+    },
+    "description": {
+      "zh": "周期性地使你的下一个伤害型技能或攻击触发一道闪电爆裂，连锁穿过敌人以造成伤害和减速。",
+      "en": "Periodically your next damaging Ability or Attack triggers a lightning blast, chaining through enemies to deal damage and Slow."
+    },
+    "icon": "infernalsoul.webp"
+  },
+  {
+    "id": "killsecure",
+    "tier": "Silver",
+    "name": {
+      "zh": "杀意翻涌",
+      "en": "Kill Secured"
+    },
+    "description": {
+      "zh": "在朝着低于40%生命值的敌人时，获得60%移动速度",
+      "en": "Gain 60% Movement Speed towards enemies below 40% health."
+    },
+    "icon": "killsecure.webp"
+  },
+  {
+    "id": "puristcaster",
+    "tier": "Silver",
+    "name": {
+      "zh": "纯粹主义者 - 术师",
+      "en": "Purist - Caster"
+    },
+    "description": {
+      "zh": "获得 <attention>10%</attention> <span class=\"lol-text-gold-3\">冷却缩减</span>。<br><br><span class=\"lol-text-gold-1\">核心转换：</span>你的所有 <span class=\"lol-text-gold-3\">攻击速度</span> 都会被转化为 <span class=\"lol-text-gold-3\">技能极速</span>。每 <attention>1% 攻击速度</attention> 转换为 <attention>0.65</attention> <span class=\"lol-text-gold-3\">技能极速</span>。<br><br><span class=\"lol-text-grey-2\">（该效果包含基础攻击速度加成及来自装备、符文的加成）</span>",
+      "en": "Gain <attention>10%</attention> <span class=\"lol-text-gold-3\">Cooldown Reduction</span>.<br><br><span class=\"lol-text-gold-1\">Inherent Conversion:</span> Converts all <span class=\"lol-text-gold-3\">Attack Speed</span> into <span class=\"lol-text-gold-3\">Ability Haste</span>. Every <attention>1% Attack Speed</attention> grants <attention>0.65</attention> <span class=\"lol-text-gold-3\">Ability Haste</span>.<br><br><span class=\"lol-text-grey-2\">(This includes Attack Speed from all sources.)</span>"
+    },
+    "icon": "puristcaster.webp"
+  },
+  {
+    "id": "speeddemon",
+    "tier": "Silver",
+    "name": {
+      "zh": "速度恶魔",
+      "en": "Speed Demon"
+    },
+    "description": {
+      "zh": "用一个技能对一个敌方英雄造成伤害时，获得在1秒里持续衰减的200移动速度。",
+      "en": "Gain 200 Movement Speed when damaging an enemy champion with an Ability, decaying over 1 second."
+    },
+    "icon": "speeddemon.webp"
+  },
+  {
+    "id": "weightedpopoffs",
+    "tier": "Silver",
+    "name": {
+      "zh": "负重爆气",
+      "en": "Weighted Popoffs"
+    },
+    "description": {
+      "zh": "用技能命中敌方英雄时，会获得一层持续 <attention>6秒</attention> 的 <span class=\"lol-text-gold-1\">【爆气】</span> (最高 <attention>6层</attention>)。<br><br>每层 <span class=\"lol-text-gold-1\">【爆气】</span> 都会使你的非终极技能剩余冷却时间缩短 <attention>2.5%</attention>。达到满层时，该缩减效果提升至 <attention>5.0%</attention>。",
+      "en": "Striking enemy champions with Abilities grants a stack of <span class=\"lol-text-gold-1\">Popoff</span> for <attention>6s</attention> (max <attention>6 stacks</attention>).<br><br>Each stack reduces your remaining non-Ultimate Ability Cooldowns by <attention>2.5%</attention>, increased to <attention>5.0%</attention> per stack at <attention>max stacks</attention>."
+    },
+    "icon": "weightedpopoffs.webp"
+  },
+  {
+    "id": "zealot",
+    "tier": "Silver",
+    "name": {
+      "zh": "狂热者",
+      "en": "Zealot"
+    },
+    "description": {
+      "zh": "获得25%暴击率和35%攻击速度，这两个效果受益于法术强度",
+      "en": "Gain 25% Critical Strike Chance and 35% Attack Speed, both of which benefit from Ability Power."
+    },
+    "icon": "zealot.webp"
+  },
+  {
+    "id": "spinmerightround",
+    "tier": "Silver",
+    "name": {
+      "zh": "转得我眩晕了",
+      "en": "Spin Me Right Round"
+    },
+    "description": {
+      "zh": "将一个召唤师技能替换为骄行荡寇(阿克尚E)。<br><br>骄行荡寇发射一根钩爪，吸附在地形上，在此之后，你可以再次施放来绕着它摆荡。在摆荡状态下，自动攻击相距最近的那个敌人。在与一个敌方英雄碰撞或再次施放时结束摆荡。",
+      "en": "Replace a Summoner Spell with Heroic Swing.<br><br>Heroic Swing fires a grappling hook, sticking into terrain, after which you can Recast to swing around it. While swinging, automatically Attack the nearest enemy. Colliding with an enemy champion or Recasting ends the swing."
+    },
+    "icon": "youspinmerightround.webp"
+  },
+  {
+    "id": "growthspurt",
+    "tier": "Gold",
+    "name": {
+      "zh": "生机迸发",
+      "en": "Growth Spurt"
+    },
+    "description": {
+      "zh": "获得生机进发作为一个召唤师技能。生机进发会猛然提升你的体型，击飞附近的敌人们1秒并提供持续7秒的（）最大生命值。",
+      "en": "Gain Growth Spurt as a Summoner Spell.<br><br>Growth Spurt suddenly increases your size, Knocking Up nearby enemies and granting max Health."
+    },
+    "icon": "growthspurt.webp"
+  },
+  {
+    "id": "Upgrade Ardent Censer",
+    "tier": "Prismatic",
+    "name": {
+      "zh": "升级：花晓之剑",
+      "en": "Upgrade: Sword of Blossoming Dawn"
+    },
+    "description": {
+      "zh": "获得 <attention>100%</attention> 攻击速度。<br><br>在你拥有[[花晓之剑]]时，你对英雄的攻击造成 <attention>50%</attention> 伤害，但使来自[[花晓之剑]]的治疗效果提升 <attention>250%</attention>。",
+      "en": "Gain <attention>100%</attention> Attack Speed.<br><br>While you own [[Sword of Blossoming Dawn]], your attacks against champions deal <attention>50%</attention> damage but increase healing from [[Sword of Blossoming Dawn]] by <attention>250%</attention>."
+    },
+    "icon": "upgrademikaelsblessing.png"
+  }
+]

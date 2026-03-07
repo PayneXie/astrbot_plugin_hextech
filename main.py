@@ -5,6 +5,7 @@ import json
 import os
 import aiohttp
 from bs4 import BeautifulSoup
+from .utils import fetch_hextech_data_from_url
 
 @register("hextech", "Payne", "海克斯乱斗信息差", "0.0.1")
 class MyPlugin(Star):
@@ -13,6 +14,10 @@ class MyPlugin(Star):
         self.config = config or {}
         self.hero_data = []
         self._load_hero_data()
+        self.hextech_data = None
+        self.last_fetch_time = 0
+        import time
+        self.time = time
 
     def _load_hero_data(self):
         """加载英雄数据"""
@@ -57,6 +62,101 @@ class MyPlugin(Star):
                 return hero
                 
         return None
+
+    async def _get_hextech_data(self):
+        """获取海克斯数据，支持缓存"""
+        current_time = self.time.time()
+        # 缓存1小时
+        if self.hextech_data and (current_time - self.last_fetch_time < 3600):
+            return self.hextech_data
+        
+        try:
+            # 尝试获取数据
+            import asyncio
+            loop = asyncio.get_event_loop()
+            # 在执行器中运行同步函数以避免阻塞
+            data = await loop.run_in_executor(None, fetch_hextech_data_from_url)
+            
+            if data:
+                self.hextech_data = data
+                self.last_fetch_time = current_time
+                logger.info(f"成功更新 {len(data)} 条海克斯数据")
+                return data
+            else:
+                logger.warning("获取海克斯数据失败，尝试使用旧数据")
+                return self.hextech_data
+        except Exception as e:
+            logger.error(f"获取海克斯数据异常: {e}")
+            return self.hextech_data
+
+    @filter.command("海克斯")
+    async def search_hextech(self, event: AstrMessageEvent, query: str = ""):
+        """查询海克斯强化符文信息"""
+        if not query:
+            yield event.plain_result("请输入要查询的海克斯名称，例如：/海克斯 利刃华尔兹")
+            return
+
+        yield event.plain_result(f"🔍 正在查询海克斯【{query}】...")
+
+        hextechs = await self._get_hextech_data()
+        if not hextechs:
+            yield event.plain_result("无法获取海克斯数据，请稍后再试。")
+            return
+
+        query = query.lower().strip()
+        matched = []
+        
+        # 搜索逻辑
+        for h in hextechs:
+            zh_name = h.get("name", {}).get("zh", "")
+            en_name = h.get("name", {}).get("en", "")
+            
+            if query in zh_name or query in en_name.lower():
+                matched.append(h)
+        
+        if not matched:
+            yield event.plain_result(f"未找到海克斯: {query}")
+            return
+
+        # 限制返回数量，避免刷屏
+        if len(matched) > 5:
+            yield event.plain_result(f"找到 {len(matched)} 个相关海克斯，请提供更精确的名称。显示前 5 个结果：")
+            matched = matched[:5]
+
+        result_msg = []
+        for h in matched:
+            zh_name = h.get("name", {}).get("zh", "未知")
+            en_name = h.get("name", {}).get("en", "")
+            tier = h.get("tier", "Unknown")
+            desc_zh = h.get("description", {}).get("zh", "")
+            
+            # 清理 HTML 标签
+            desc_clean = BeautifulSoup(desc_zh, "html.parser").get_text()
+            
+            # 翻译阶级
+            tier_map = {
+                "Prismatic": "棱彩阶",
+                "Gold": "黄金阶",
+                "Silver": "白银阶"
+            }
+            tier_zh = tier_map.get(tier, tier)
+            
+            # 格式化输出
+            emoji = "🔸"
+            if tier == "Prismatic":
+                emoji = "💎"
+            elif tier == "Gold":
+                emoji = "🌟"
+            elif tier == "Silver":
+                emoji = "⚪"
+                
+            msg = f"{emoji} **{zh_name}** ({tier_zh})\n"
+            if en_name:
+                msg += f"   EN: {en_name}\n"
+            msg += f"   📝 {desc_clean}"
+            result_msg.append(msg)
+            
+        yield event.plain_result("\n\n".join(result_msg))
 
     async def _fetch_hextech_info(self, hero_id: str) -> str:
         """爬取海克斯联动数据"""
