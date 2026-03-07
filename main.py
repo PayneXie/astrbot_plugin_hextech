@@ -87,6 +87,10 @@ class MyPlugin(Star):
             
             result = ["\n⚡ **海克斯联动分析**"]
             for card in cards:
+                # 过滤掉组合列举（含有多个 hex-name 的卡片）
+                if len(card.select(".hex-name")) > 1:
+                    continue
+
                 # 阶级: .hex-tier
                 tier_elem = card.select_one(".hex-tier")
                 tier = tier_elem.get_text(strip=True) if tier_elem else ""
@@ -103,7 +107,22 @@ class MyPlugin(Star):
                 note_elem = card.select_one(".note")
                 note = note_elem.get_text(strip=True) if note_elem else ""
                 
-                result.append(f"- 【{rating}】 {name} ({tier}): {note}")
+                # 格式化输出
+                emoji = "🔸"
+                tag = ""
+                
+                if "S" in rating:
+                    emoji = "🔥"
+                    tag = "**(强力!)**"
+                elif "A" in rating:
+                    emoji = "✨"
+                elif "B" in rating:
+                    emoji = "⚖️"
+                elif "D" in rating:
+                    emoji = "🚫"
+                    tag = "**(陷阱!)**"
+                
+                result.append(f"{emoji} 【{rating}】 **{name}** ({tier}) {tag}\n   └ 💡 {note}")
                 
             return "\n".join(result)
 
